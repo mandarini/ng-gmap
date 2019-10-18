@@ -23,12 +23,12 @@ export class MainMapComponent implements OnInit, AfterViewInit {
   maps: any;
   map: google.maps.Map;
 
-  icon: google.maps.Icon;
   london: google.maps.LatLng;
   infoWindow: google.maps.InfoWindow;
   markerClusterer: MarkerClusterer;
   heatmap: google.maps.visualization.HeatmapLayer;
   drawingManager: google.maps.drawing.DrawingManager;
+  allOverlays: any[] = [];
 
   lettings: string[][];
   masts: string[][];
@@ -206,7 +206,6 @@ export class MainMapComponent implements OnInit, AfterViewInit {
   }
 
   toggleMasts(): void {
-    console.log(this.mastsVisible);
     if (!this.mastsVisible) {
       this.markers.map(marker => {
         marker.setMap(this.map);
@@ -282,6 +281,7 @@ export class MainMapComponent implements OnInit, AfterViewInit {
     drawingManager: google.maps.drawing.DrawingManager
   ) {
     google.maps.event.addListener(drawingManager, "overlaycomplete", event => {
+      this.allOverlays.push(event.overlay);
       event.overlay.addListener("rightclick", () => {
         event.overlay.setMap(null);
       });
@@ -338,5 +338,124 @@ export class MainMapComponent implements OnInit, AfterViewInit {
           console.log("end");
       }
     });
+  }
+
+  draw(type: string) {
+    switch (type) {
+      case "marker":
+        this.drawingManager.setDrawingMode(
+          google.maps.drawing.OverlayType.MARKER
+        );
+        const point: google.maps.Icon = {
+          url: "assets/img/point.png",
+          scaledSize: new google.maps.Size(30, 30)
+        };
+
+        this.drawingManager.setOptions({
+          markerOptions: {
+            icon: point,
+            clickable: true,
+            draggable: true
+          }
+        });
+        break;
+      case "cat":
+        this.drawingManager.setDrawingMode(
+          google.maps.drawing.OverlayType.MARKER
+        );
+        const cat: google.maps.Icon = {
+          url: "assets/img/cat.png",
+          scaledSize: new google.maps.Size(70, 70)
+        };
+        this.drawingManager.setOptions({
+          markerOptions: {
+            icon: cat,
+            clickable: true,
+            draggable: true
+          }
+        });
+        break;
+      case "polygon":
+        this.drawingManager.setDrawingMode(
+          google.maps.drawing.OverlayType.POLYGON
+        );
+        this.drawingManager.setOptions({
+          polygonOptions: {
+            fillColor: "#9c4d4f",
+            fillOpacity: 0.5,
+            strokeWeight: 2,
+            strokeColor: "#401619",
+            clickable: true,
+            editable: true,
+            draggable: true
+          }
+        });
+        break;
+      case "square":
+        this.drawingManager.setDrawingMode(
+          google.maps.drawing.OverlayType.RECTANGLE
+        );
+        this.drawingManager.setOptions({
+          rectangleOptions: {
+            fillColor: "#fff82e",
+            fillOpacity: 0.5,
+            strokeWeight: 2,
+            strokeColor: "#c8a535",
+            clickable: true,
+            editable: true,
+            draggable: true
+          }
+        });
+        break;
+      case "polyline":
+        this.drawingManager.setDrawingMode(
+          google.maps.drawing.OverlayType.POLYLINE
+        );
+        this.drawingManager.setOptions({
+          polylineOptions: {
+            strokeWeight: 2,
+            strokeColor: "#00b801",
+            clickable: true,
+            editable: true,
+            draggable: true
+          }
+        });
+        break;
+      case "circle":
+        this.drawingManager.setDrawingMode(
+          google.maps.drawing.OverlayType.CIRCLE
+        );
+        this.drawingManager.setOptions({
+          circleOptions: {
+            fillColor: "#00b801",
+            fillOpacity: 0.5,
+            strokeWeight: 2,
+            strokeColor: "#00b801",
+            clickable: true,
+            editable: true,
+            draggable: true
+          }
+        });
+        break;
+      case "pan":
+        this.drawingManager.setDrawingMode(null);
+        break;
+      case "save":
+        this.drawingManager.setDrawingMode(null);
+        this.map.data.toGeoJson(obj => {
+          console.log(JSON.stringify(obj));
+          console.log(obj);
+        });
+        break;
+      default:
+        this.drawingManager.setDrawingMode(null);
+    }
+  }
+
+  clearAll() {
+    this.allOverlays.map(overlay => {
+      overlay.setMap(null);
+    });
+    this.allOverlays = [];
   }
 }

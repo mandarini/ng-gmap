@@ -61,6 +61,7 @@
   <img src="assets/img/cat.png" (click)="draw('cat')" />
   <img src="assets/img/pan.png" (click)="draw('pan')" />
   <img src="assets/img/save.png" (click)="draw('save')" />
+  <img src="assets/img/clear.svg" (click)="clearAll()" />
 </div>
 <div #mapElement class="map"></div>
 <p #legend [ngClass]="{ legend: showLonely }">
