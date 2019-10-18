@@ -1,0 +1,1454 @@
+{
+  "meta" : {
+    "view" : {
+      "id" : "ww2c-ky3y",
+      "name" : "Mobile Phone Masts In Camden",
+      "attribution" : "Mobile Operators Association",
+      "attributionLink" : "http://www.mobilemastinfo.com",
+      "averageRating" : 0,
+      "category" : "People & Places",
+      "createdAt" : 1446206828,
+      "description" : "This dataset contains the location of mobile phone masts in Camden. Data is provided annually by the MOA (Mobile Operators Association). Attribution includes the operator name, site address and ward name. Some sites are duplicated where operators share the same infrastructure.",
+      "displayType" : "table",
+      "downloadCount" : 1177,
+      "hideFromCatalog" : false,
+      "hideFromDataJson" : false,
+      "indexUpdatedAt" : 1447082081,
+      "licenseId" : "UK_OGLV3.0",
+      "newBackend" : false,
+      "numberOfComments" : 0,
+      "oid" : 54012,
+      "provenance" : "official",
+      "publicationAppendEnabled" : true,
+      "publicationDate" : 1447081953,
+      "publicationGroup" : 28188,
+      "publicationStage" : "published",
+      "rowsUpdatedAt" : 1447082076,
+      "rowsUpdatedBy" : "it3r-jdrj",
+      "tableId" : 28576,
+      "totalTimesRated" : 0,
+      "viewCount" : 208,
+      "viewLastModified" : 1447082076,
+      "viewType" : "tabular",
+      "columns" : [ {
+        "id" : -1,
+        "name" : "sid",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":sid",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "id",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":id",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "position",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":position",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "created_at",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":created_at",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "created_meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":created_meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "updated_at",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":updated_at",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "updated_meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":updated_meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : 623618,
+        "name" : "Operator",
+        "dataTypeName" : "text",
+        "fieldName" : "operator",
+        "position" : 2,
+        "renderTypeName" : "text",
+        "tableColumnId" : 303644,
+        "width" : 196,
+        "cachedContents" : {
+          "non_null" : 203,
+          "largest" : "Three and EE",
+          "null" : 0,
+          "top" : [ {
+            "item" : "CTIL",
+            "count" : 20
+          }, {
+            "item" : "EE and Three",
+            "count" : 19
+          }, {
+            "item" : "Three and EE",
+            "count" : 18
+          }, {
+            "item" : "EE",
+            "count" : 17
+          }, {
+            "item" : "Three",
+            "count" : 16
+          } ],
+          "smallest" : "CTIL"
+        },
+        "format" : { }
+      }, {
+        "id" : 623619,
+        "name" : "Operator Reference",
+        "dataTypeName" : "text",
+        "fieldName" : "operator_reference",
+        "position" : 3,
+        "renderTypeName" : "text",
+        "tableColumnId" : 303645,
+        "width" : 316,
+        "cachedContents" : {
+          "non_null" : 203,
+          "largest" : "98528",
+          "null" : 0,
+          "top" : [ {
+            "item" : "90444",
+            "count" : 20
+          }, {
+            "item" : "50172",
+            "count" : 19
+          }, {
+            "item" : "98117",
+            "count" : 18
+          }, {
+            "item" : "25027",
+            "count" : 17
+          }, {
+            "item" : "98121",
+            "count" : 16
+          }, {
+            "item" : "50424",
+            "count" : 15
+          }, {
+            "item" : "13719",
+            "count" : 14
+          }, {
+            "item" : "90562",
+            "count" : 13
+          }, {
+            "item" : "50769",
+            "count" : 12
+          }, {
+            "item" : "90026",
+            "count" : 11
+          }, {
+            "item" : "25032",
+            "count" : 10
+          }, {
+            "item" : "144334",
+            "count" : 9
+          }, {
+            "item" : "98528",
+            "count" : 8
+          }, {
+            "item" : "143474",
+            "count" : 7
+          }, {
+            "item" : "53663",
+            "count" : 6
+          }, {
+            "item" : "144406",
+            "count" : 5
+          }, {
+            "item" : "140779",
+            "count" : 4
+          }, {
+            "item" : "136008",
+            "count" : 3
+          }, {
+            "item" : "147084",
+            "count" : 2
+          }, {
+            "item" : "140519",
+            "count" : 1
+          } ],
+          "smallest" : "135951"
+        },
+        "format" : { }
+      }, {
+        "id" : 623620,
+        "name" : "Site Name",
+        "dataTypeName" : "text",
+        "fieldName" : "site_name",
+        "position" : 4,
+        "renderTypeName" : "text",
+        "tableColumnId" : 303646,
+        "width" : 208,
+        "cachedContents" : {
+          "non_null" : 203,
+          "largest" : "YORK WAY",
+          "null" : 0,
+          "top" : [ {
+            "item" : "PORTLAND COURT",
+            "count" : 20
+          }, {
+            "item" : "TORRINGTON PLACE",
+            "count" : 19
+          }, {
+            "item" : "PARLIAMENT HILL",
+            "count" : 18
+          }, {
+            "item" : "NW0027 - THE SPANIARDS INN 205927",
+            "count" : 17
+          }, {
+            "item" : "CAA HOUSE",
+            "count" : 16
+          }, {
+            "item" : "BT SPEC KENTISH TOWN TE",
+            "count" : 15
+          }, {
+            "item" : "KENTISH TOWN FIRE STATION",
+            "count" : 14
+          }, {
+            "item" : "HAMPSTEAD COMFORT INN",
+            "count" : 13
+          }, {
+            "item" : "ALVANLEY COURTNW",
+            "count" : 12
+          }, {
+            "item" : "ROCHESTER COURT",
+            "count" : 11
+          }, {
+            "item" : "NW0033 - WAVERLEY COURT 220268",
+            "count" : 10
+          }, {
+            "item" : "BELSIZE PARK",
+            "count" : 9
+          }, {
+            "item" : "GREATER LONDON HOUSE",
+            "count" : 8
+          }, {
+            "item" : "CAMDEN TOWN",
+            "count" : 7
+          }, {
+            "item" : "MAPLE HOUSE",
+            "count" : 6
+          }, {
+            "item" : "KINGS CROSS RAILWAY STATION",
+            "count" : 5
+          }, {
+            "item" : "Penderel House",
+            "count" : 4
+          }, {
+            "item" : "LANSDOWNE SQUARE",
+            "count" : 3
+          }, {
+            "item" : "HAMPSTEAD 2 - 3G SLM",
+            "count" : 2
+          }, {
+            "item" : "Bacton House",
+            "count" : 1
+          } ],
+          "smallest" : "@@H Bonnington Hote"
+        },
+        "format" : { }
+      }, {
+        "id" : 623621,
+        "name" : "Site Address",
+        "dataTypeName" : "text",
+        "fieldName" : "site_address",
+        "position" : 5,
+        "renderTypeName" : "text",
+        "tableColumnId" : 303647,
+        "width" : 244,
+        "cachedContents" : {
+          "non_null" : 203,
+          "largest" : "WEST HEATH ROAD, HAMPSTEAD, , LONDON,",
+          "null" : 0,
+          "top" : [ {
+            "item" : "Regents Park Estate Stanhope Street  LONDON LONDON: CAMDEN",
+            "count" : 20
+          }, {
+            "item" : "PORTLAND LODGE 37-38 BELSIZE PARK HAMPSTEAD LONDON GREATER LONDON",
+            "count" : 19
+          }, {
+            "item" : "1-19 TORRINGTON PLACE TOTTENHAM COURT ROAD  LONDON LONDON: CAMDEN",
+            "count" : 18
+          }, {
+            "item" : "The Spaniards Inn, Spaniards Road, Hampstead Heath, London",
+            "count" : 17
+          }, {
+            "item" : "CAA House 45-49 Kingsway  LONDON LONDON: WESTMINSTER",
+            "count" : 16
+          }, {
+            "item" : "OFF KELLY STREET KENTISH TOWN ROAD  LONDON LONDON: CAMDEN",
+            "count" : 15
+          }, {
+            "item" : "KENTISH TOWN FIRE STATION, HIGHGATE ROAD, LONDON, ,",
+            "count" : 14
+          }, {
+            "item" : "HAMPSTEAD COMFORT INN 5-7 Frognal Hampstead LONDON LONDON: CAMDEN",
+            "count" : 13
+          }, {
+            "item" : "ALVANLEY COURTNW 250 Finchley Road  LONDON LONDON: CAMDEN",
+            "count" : 12
+          }, {
+            "item" : "Rochester Court Rochester Square  LONDON LONDON: CAMDEN",
+            "count" : 11
+          }, {
+            "item" : "Waverly court, 41 Steeles Road, Hampstead, London",
+            "count" : 10
+          }, {
+            "item" : "OUTSIDE 242 GRAFTON RD",
+            "count" : 9
+          }, {
+            "item" : "RESOLUTION PROPERTY GLH GREATER LONDON HOUSE,HAMPSTEAD ROAD  LONDON LONDON: CAMDEN",
+            "count" : 8
+          }, {
+            "item" : "THE FORUM",
+            "count" : 7
+          }, {
+            "item" : "MAPLE HOUSE TOTTENHAM COURT ROAD CAMDEN LONDON LONDON: CAMDEN",
+            "count" : 6
+          }, {
+            "item" : "KINGS CROSS",
+            "count" : 5
+          }, {
+            "item" : "283 High Holborn",
+            "count" : 4
+          }, {
+            "item" : "UNIVERSITY OF LONDON",
+            "count" : 3
+          }, {
+            "item" : "82 HEATH STREET",
+            "count" : 2
+          }, {
+            "item" : "Haverstock Rd",
+            "count" : 1
+          } ],
+          "smallest" : "100 Grays Inn Road"
+        },
+        "format" : { }
+      }, {
+        "id" : 623622,
+        "name" : "Postcode",
+        "dataTypeName" : "text",
+        "fieldName" : "postcode",
+        "position" : 6,
+        "renderTypeName" : "text",
+        "tableColumnId" : 303648,
+        "width" : 208,
+        "cachedContents" : {
+          "non_null" : 203,
+          "largest" : "WC2H 8LP",
+          "null" : 0,
+          "top" : [ {
+            "item" : "NW3 4ED",
+            "count" : 20
+          }, {
+            "item" : "WC1E 7HB",
+            "count" : 19
+          }, {
+            "item" : "NW5 2XH",
+            "count" : 18
+          }, {
+            "item" : "NW3 7JJ",
+            "count" : 17
+          }, {
+            "item" : "WC2B 6TJ",
+            "count" : 16
+          }, {
+            "item" : "NW5 3LW",
+            "count" : 15
+          }, {
+            "item" : "NW5 2NX",
+            "count" : 14
+          }, {
+            "item" : "NW3 6AL",
+            "count" : 13
+          }, {
+            "item" : "NW3 6DL",
+            "count" : 12
+          }, {
+            "item" : "NW1 9EL",
+            "count" : 11
+          }, {
+            "item" : "NW3 4SB",
+            "count" : 10
+          }, {
+            "item" : "NW5 4HH",
+            "count" : 9
+          }, {
+            "item" : "NW1 7TZ",
+            "count" : 8
+          }, {
+            "item" : "NW1 0LF",
+            "count" : 7
+          }, {
+            "item" : "WC1E 0XY",
+            "count" : 6
+          }, {
+            "item" : "TBC",
+            "count" : 5
+          }, {
+            "item" : "WC1R 5DJ",
+            "count" : 4
+          }, {
+            "item" : "WC1N 1DJ",
+            "count" : 3
+          }, {
+            "item" : "NW3 1DN",
+            "count" : 2
+          }, {
+            "item" : "NW5 4PL",
+            "count" : 1
+          } ],
+          "smallest" : "EC1N 2NS"
+        },
+        "format" : {
+          "align" : "left"
+        }
+      }, {
+        "id" : 623623,
+        "name" : "Ward Code",
+        "dataTypeName" : "text",
+        "fieldName" : "ward_code",
+        "position" : 7,
+        "renderTypeName" : "text",
+        "tableColumnId" : 303649,
+        "width" : 208,
+        "cachedContents" : {
+          "non_null" : 201,
+          "largest" : "E05000145",
+          "null" : 2,
+          "top" : [ {
+            "item" : "E05000138",
+            "count" : 20
+          }, {
+            "item" : "E05000136",
+            "count" : 19
+          }, {
+            "item" : "E05000141",
+            "count" : 18
+          }, {
+            "item" : "E05000129",
+            "count" : 17
+          }, {
+            "item" : "E05000132",
+            "count" : 16
+          }, {
+            "item" : "E05000143",
+            "count" : 15
+          }, {
+            "item" : "E05000145",
+            "count" : 14
+          }, {
+            "item" : "E05000133",
+            "count" : 13
+          }, {
+            "item" : "E05000142",
+            "count" : 12
+          }, {
+            "item" : "E05000128",
+            "count" : 11
+          }, {
+            "item" : "E05000130",
+            "count" : 10
+          }, {
+            "item" : "E05000139",
+            "count" : 9
+          }, {
+            "item" : "E05000140",
+            "count" : 8
+          }, {
+            "item" : "E05000144",
+            "count" : 7
+          }, {
+            "item" : "E05000131",
+            "count" : 6
+          }, {
+            "item" : "E05000135",
+            "count" : 5
+          }, {
+            "item" : "E05000134",
+            "count" : 4
+          }, {
+            "item" : "E05000137",
+            "count" : 3
+          } ],
+          "smallest" : "E05000128"
+        },
+        "format" : { }
+      }, {
+        "id" : 623624,
+        "name" : "Ward Name",
+        "dataTypeName" : "text",
+        "fieldName" : "ward_name",
+        "position" : 8,
+        "renderTypeName" : "text",
+        "tableColumnId" : 303650,
+        "width" : 208,
+        "cachedContents" : {
+          "non_null" : 201,
+          "largest" : "West Hampstead",
+          "null" : 2,
+          "top" : [ {
+            "item" : "Holborn and Covent Garden",
+            "count" : 20
+          }, {
+            "item" : "Haverstock",
+            "count" : 19
+          }, {
+            "item" : "King's Cross",
+            "count" : 18
+          }, {
+            "item" : "Bloomsbury",
+            "count" : 17
+          }, {
+            "item" : "Fortune Green",
+            "count" : 16
+          }, {
+            "item" : "St Pancras and Somers Town",
+            "count" : 15
+          }, {
+            "item" : "West Hampstead",
+            "count" : 14
+          }, {
+            "item" : "Frognal and Fitzjohns",
+            "count" : 13
+          }, {
+            "item" : "Regent's Park",
+            "count" : 12
+          }, {
+            "item" : "Belsize",
+            "count" : 11
+          }, {
+            "item" : "Camden Town with Primrose Hill",
+            "count" : 10
+          }, {
+            "item" : "Kentish Town",
+            "count" : 9
+          }, {
+            "item" : "Kilburn",
+            "count" : 8
+          }, {
+            "item" : "Swiss Cottage",
+            "count" : 7
+          }, {
+            "item" : "Cantelowes",
+            "count" : 6
+          }, {
+            "item" : "Hampstead Town",
+            "count" : 5
+          }, {
+            "item" : "Gospel Oak",
+            "count" : 4
+          }, {
+            "item" : "Highgate",
+            "count" : 3
+          } ],
+          "smallest" : "Belsize"
+        },
+        "format" : { }
+      }, {
+        "id" : 623625,
+        "name" : "Easting",
+        "dataTypeName" : "number",
+        "fieldName" : "easting",
+        "position" : 9,
+        "renderTypeName" : "number",
+        "tableColumnId" : 303651,
+        "width" : 184,
+        "cachedContents" : {
+          "non_null" : 203,
+          "average" : "528631.3596059113",
+          "largest" : "531296",
+          "null" : 0,
+          "top" : [ {
+            "item" : "526775",
+            "count" : 20
+          }, {
+            "item" : "529960",
+            "count" : 19
+          }, {
+            "item" : "529515",
+            "count" : 18
+          }, {
+            "item" : "526612",
+            "count" : 17
+          }, {
+            "item" : "530575",
+            "count" : 16
+          }, {
+            "item" : "528883",
+            "count" : 15
+          }, {
+            "item" : "528943",
+            "count" : 14
+          }, {
+            "item" : "526234",
+            "count" : 13
+          }, {
+            "item" : "525760",
+            "count" : 12
+          }, {
+            "item" : "529350",
+            "count" : 11
+          }, {
+            "item" : "527636",
+            "count" : 10
+          }, {
+            "item" : "528100",
+            "count" : 9
+          }, {
+            "item" : "529115",
+            "count" : 8
+          }, {
+            "item" : "529250",
+            "count" : 7
+          }, {
+            "item" : "529322",
+            "count" : 6
+          }, {
+            "item" : "530222",
+            "count" : 5
+          }, {
+            "item" : "530858",
+            "count" : 4
+          }, {
+            "item" : "530410",
+            "count" : 3
+          }, {
+            "item" : "526380",
+            "count" : 2
+          }, {
+            "item" : "528001",
+            "count" : 1
+          } ],
+          "smallest" : "524691",
+          "sum" : "107312166"
+        },
+        "format" : { }
+      }, {
+        "id" : 623626,
+        "name" : "Northing",
+        "dataTypeName" : "number",
+        "fieldName" : "northing",
+        "position" : 10,
+        "renderTypeName" : "number",
+        "tableColumnId" : 303652,
+        "width" : 196,
+        "cachedContents" : {
+          "non_null" : 203,
+          "average" : "183488.4433497537",
+          "largest" : "187300",
+          "null" : 0,
+          "top" : [ {
+            "item" : "182650",
+            "count" : 20
+          }, {
+            "item" : "184714",
+            "count" : 19
+          }, {
+            "item" : "181988",
+            "count" : 18
+          }, {
+            "item" : "187163",
+            "count" : 17
+          }, {
+            "item" : "181214",
+            "count" : 16
+          }, {
+            "item" : "184629",
+            "count" : 15
+          }, {
+            "item" : "185422",
+            "count" : 14
+          }, {
+            "item" : "185003",
+            "count" : 13
+          }, {
+            "item" : "185325",
+            "count" : 12
+          }, {
+            "item" : "184330",
+            "count" : 11
+          }, {
+            "item" : "184510",
+            "count" : 10
+          }, {
+            "item" : "185100",
+            "count" : 9
+          }, {
+            "item" : "183320",
+            "count" : 8
+          }, {
+            "item" : "183797",
+            "count" : 7
+          }, {
+            "item" : "182222",
+            "count" : 6
+          }, {
+            "item" : "183233",
+            "count" : 5
+          }, {
+            "item" : "181579",
+            "count" : 4
+          }, {
+            "item" : "182199",
+            "count" : 3
+          }, {
+            "item" : "185870",
+            "count" : 2
+          }, {
+            "item" : "185310",
+            "count" : 1
+          } ],
+          "smallest" : "181112",
+          "sum" : "37248154"
+        },
+        "format" : { }
+      }, {
+        "id" : 623627,
+        "name" : "Longitude",
+        "dataTypeName" : "number",
+        "fieldName" : "longitude",
+        "position" : 11,
+        "renderTypeName" : "number",
+        "tableColumnId" : 303653,
+        "width" : 208,
+        "cachedContents" : {
+          "non_null" : 203,
+          "average" : "-0.1468073251231527",
+          "largest" : "-0.108984",
+          "null" : 0,
+          "top" : [ {
+            "item" : "-0.141076",
+            "count" : 20
+          }, {
+            "item" : "-0.173111",
+            "count" : 19
+          }, {
+            "item" : "-0.13462",
+            "count" : 18
+          }, {
+            "item" : "-0.174579",
+            "count" : 17
+          }, {
+            "item" : "-0.119637",
+            "count" : 16
+          }, {
+            "item" : "-0.142758",
+            "count" : 15
+          }, {
+            "item" : "-0.141603",
+            "count" : 14
+          }, {
+            "item" : "-0.180805",
+            "count" : 13
+          }, {
+            "item" : "-0.187523",
+            "count" : 12
+          }, {
+            "item" : "-0.136137",
+            "count" : 11
+          }, {
+            "item" : "-0.160775",
+            "count" : 10
+          }, {
+            "item" : "-0.153872",
+            "count" : 9
+          }, {
+            "item" : "-0.139894",
+            "count" : 8
+          }, {
+            "item" : "-0.137774",
+            "count" : 7
+          }, {
+            "item" : "-0.137314",
+            "count" : 6
+          }, {
+            "item" : "-0.123975",
+            "count" : 5
+          }, {
+            "item" : "-0.115425",
+            "count" : 4
+          }, {
+            "item" : "-0.121649",
+            "count" : 3
+          }, {
+            "item" : "-0.178389",
+            "count" : 2
+          }, {
+            "item" : "-0.155223",
+            "count" : 1
+          } ],
+          "smallest" : "-0.203189",
+          "sum" : "-29.801887"
+        },
+        "format" : { }
+      }, {
+        "id" : 623628,
+        "name" : "Latitude",
+        "dataTypeName" : "number",
+        "fieldName" : "latitude",
+        "position" : 12,
+        "renderTypeName" : "number",
+        "tableColumnId" : 303654,
+        "width" : 196,
+        "cachedContents" : {
+          "non_null" : 203,
+          "average" : "51.53566117733990",
+          "largest" : "51.569963",
+          "null" : 0,
+          "top" : [ {
+            "item" : "51.528034",
+            "count" : 20
+          }, {
+            "item" : "51.547097",
+            "count" : 19
+          }, {
+            "item" : "51.521978",
+            "count" : 18
+          }, {
+            "item" : "51.569143",
+            "count" : 17
+          }, {
+            "item" : "51.514779",
+            "count" : 16
+          }, {
+            "item" : "51.545856",
+            "count" : 15
+          }, {
+            "item" : "51.552969",
+            "count" : 14
+          }, {
+            "item" : "51.549816",
+            "count" : 13
+          }, {
+            "item" : "51.552815",
+            "count" : 12
+          }, {
+            "item" : "51.543063",
+            "count" : 11
+          }, {
+            "item" : "51.54507",
+            "count" : 10
+          }, {
+            "item" : "51.550267",
+            "count" : 9
+          }, {
+            "item" : "51.53404",
+            "count" : 8
+          }, {
+            "item" : "51.538296",
+            "count" : 7
+          }, {
+            "item" : "51.524125",
+            "count" : 6
+          }, {
+            "item" : "51.533004",
+            "count" : 5
+          }, {
+            "item" : "51.517993",
+            "count" : 4
+          }, {
+            "item" : "51.523669",
+            "count" : 3
+          }, {
+            "item" : "51.557575",
+            "count" : 2
+          }, {
+            "item" : "51.552177",
+            "count" : 1
+          } ],
+          "smallest" : "51.514004",
+          "sum" : "10461.739219"
+        },
+        "format" : { }
+      }, {
+        "id" : 623629,
+        "name" : "Location",
+        "dataTypeName" : "location",
+        "fieldName" : "location",
+        "position" : 13,
+        "renderTypeName" : "location",
+        "tableColumnId" : 303655,
+        "width" : 196,
+        "cachedContents" : {
+          "non_null" : 203,
+          "largest" : {
+            "latitude" : "51.517742",
+            "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}",
+            "longitude" : "-0.124992"
+          },
+          "null" : 0,
+          "top" : [ {
+            "item" : {
+              "latitude" : "51.528034",
+              "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}",
+              "longitude" : "-0.141076"
+            },
+            "count" : 20
+          }, {
+            "item" : {
+              "latitude" : "51.547097",
+              "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}",
+              "longitude" : "-0.173111"
+            },
+            "count" : 19
+          }, {
+            "item" : {
+              "latitude" : "51.521978",
+              "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}",
+              "longitude" : "-0.13462"
+            },
+            "count" : 18
+          }, {
+            "item" : {
+              "latitude" : "51.569143",
+              "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}",
+              "longitude" : "-0.174579"
+            },
+            "count" : 17
+          }, {
+            "item" : {
+              "latitude" : "51.514779",
+              "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}",
+              "longitude" : "-0.119637"
+            },
+            "count" : 16
+          }, {
+            "item" : {
+              "latitude" : "51.545856",
+              "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}",
+              "longitude" : "-0.142758"
+            },
+            "count" : 15
+          }, {
+            "item" : {
+              "latitude" : "51.552969",
+              "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}",
+              "longitude" : "-0.141603"
+            },
+            "count" : 14
+          }, {
+            "item" : {
+              "latitude" : "51.549816",
+              "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}",
+              "longitude" : "-0.180805"
+            },
+            "count" : 13
+          }, {
+            "item" : {
+              "latitude" : "51.552815",
+              "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}",
+              "longitude" : "-0.187523"
+            },
+            "count" : 12
+          }, {
+            "item" : {
+              "latitude" : "51.543063",
+              "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}",
+              "longitude" : "-0.136137"
+            },
+            "count" : 11
+          }, {
+            "item" : {
+              "latitude" : "51.54507",
+              "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}",
+              "longitude" : "-0.160775"
+            },
+            "count" : 10
+          }, {
+            "item" : {
+              "latitude" : "51.550267",
+              "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}",
+              "longitude" : "-0.153872"
+            },
+            "count" : 9
+          }, {
+            "item" : {
+              "latitude" : "51.53404",
+              "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}",
+              "longitude" : "-0.139894"
+            },
+            "count" : 8
+          }, {
+            "item" : {
+              "latitude" : "51.538296",
+              "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}",
+              "longitude" : "-0.137774"
+            },
+            "count" : 7
+          }, {
+            "item" : {
+              "latitude" : "51.524125",
+              "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}",
+              "longitude" : "-0.137314"
+            },
+            "count" : 6
+          }, {
+            "item" : {
+              "latitude" : "51.533004",
+              "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}",
+              "longitude" : "-0.123975"
+            },
+            "count" : 5
+          }, {
+            "item" : {
+              "latitude" : "51.517993",
+              "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}",
+              "longitude" : "-0.115425"
+            },
+            "count" : 4
+          }, {
+            "item" : {
+              "latitude" : "51.523669",
+              "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}",
+              "longitude" : "-0.121649"
+            },
+            "count" : 3
+          }, {
+            "item" : {
+              "latitude" : "51.557575",
+              "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}",
+              "longitude" : "-0.178389"
+            },
+            "count" : 2
+          }, {
+            "item" : {
+              "latitude" : "51.552177",
+              "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}",
+              "longitude" : "-0.155223"
+            },
+            "count" : 1
+          } ],
+          "smallest" : {
+            "latitude" : "51.517742",
+            "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}",
+            "longitude" : "-0.124992"
+          }
+        },
+        "format" : { },
+        "subColumnTypes" : [ "human_address", "latitude", "longitude", "machine_address", "needs_recoding" ]
+      }, {
+        "id" : 623630,
+        "name" : "Spatial Accuracy",
+        "dataTypeName" : "text",
+        "fieldName" : "spatial_accuracy",
+        "position" : 14,
+        "renderTypeName" : "text",
+        "tableColumnId" : 303656,
+        "width" : 292,
+        "cachedContents" : {
+          "non_null" : 203,
+          "largest" : "Defined by data provider",
+          "null" : 0,
+          "top" : [ {
+            "item" : "Defined by data provider",
+            "count" : 20
+          } ],
+          "smallest" : "Defined by data provider"
+        },
+        "format" : { }
+      }, {
+        "id" : 623631,
+        "name" : "Last Uploaded",
+        "dataTypeName" : "calendar_date",
+        "fieldName" : "last_uploaded",
+        "position" : 15,
+        "renderTypeName" : "calendar_date",
+        "tableColumnId" : 303657,
+        "width" : 256,
+        "cachedContents" : {
+          "non_null" : 203,
+          "largest" : "2015-11-09T15:14:20",
+          "null" : 0,
+          "top" : [ {
+            "item" : "2015-11-09T15:14:20",
+            "count" : 20
+          }, {
+            "item" : "2015-11-09T15:14:14",
+            "count" : 19
+          } ],
+          "smallest" : "2015-11-09T15:14:14"
+        },
+        "format" : {
+          "view" : "date_dmy_time",
+          "align" : "left"
+        }
+      }, {
+        "id" : 623632,
+        "name" : "Socrata ID",
+        "dataTypeName" : "number",
+        "fieldName" : "socrata_id",
+        "position" : 16,
+        "renderTypeName" : "number",
+        "tableColumnId" : 303658,
+        "width" : 220,
+        "cachedContents" : {
+          "non_null" : 203,
+          "average" : "102",
+          "largest" : "203",
+          "null" : 0,
+          "top" : [ {
+            "item" : "19",
+            "count" : 20
+          }, {
+            "item" : "136",
+            "count" : 19
+          }, {
+            "item" : "36",
+            "count" : 18
+          }, {
+            "item" : "153",
+            "count" : 17
+          }, {
+            "item" : "139",
+            "count" : 16
+          }, {
+            "item" : "164",
+            "count" : 15
+          }, {
+            "item" : "83",
+            "count" : 14
+          }, {
+            "item" : "134",
+            "count" : 13
+          }, {
+            "item" : "165",
+            "count" : 12
+          }, {
+            "item" : "130",
+            "count" : 11
+          }, {
+            "item" : "154",
+            "count" : 10
+          }, {
+            "item" : "34",
+            "count" : 9
+          }, {
+            "item" : "150",
+            "count" : 8
+          }, {
+            "item" : "72",
+            "count" : 7
+          }, {
+            "item" : "119",
+            "count" : 6
+          }, {
+            "item" : "169",
+            "count" : 5
+          }, {
+            "item" : "26",
+            "count" : 4
+          }, {
+            "item" : "8",
+            "count" : 3
+          }, {
+            "item" : "11",
+            "count" : 2
+          }, {
+            "item" : "49",
+            "count" : 1
+          } ],
+          "smallest" : "1",
+          "sum" : "20706"
+        },
+        "format" : { }
+      } ],
+      "grants" : [ {
+        "inherited" : false,
+        "type" : "viewer",
+        "flags" : [ "public" ]
+      } ],
+      "license" : {
+        "name" : "UK Open Government Licence v3",
+        "logoUrl" : "images/licenses/ogl.png",
+        "termsLink" : "http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"
+      },
+      "metadata" : {
+        "rdfSubject" : "0",
+        "custom_fields" : {
+          "Point of Contact" : {
+            "Address" : "The Crowndale Centre, 218 Eversholt Street",
+            "Telephone" : "020 7974 4444",
+            "Role Name" : "Open Data Administrator",
+            "Organisation Name" : "London Borough of Camden",
+            "City/Town" : "London",
+            "Postcode" : "NW1 1BD",
+            "Directorate" : "External Dataset"
+          },
+          "Publication" : {
+            "Dataset Language" : "English",
+            "Spatial Reference System" : "EPSG:27700",
+            "Frequency of Update" : "Annually"
+          }
+        },
+        "availableDisplayTypes" : [ "table", "fatrow", "page" ],
+        "rowLabel" : "Row",
+        "renderTypeConfig" : {
+          "visible" : {
+            "table" : true
+          }
+        }
+      },
+      "owner" : {
+        "id" : "it3r-jdrj",
+        "displayName" : "Open Data Camden",
+        "screenName" : "Open Data Camden",
+        "type" : "interactive"
+      },
+      "query" : { },
+      "rights" : [ "read" ],
+      "tableAuthor" : {
+        "id" : "it3r-jdrj",
+        "displayName" : "Open Data Camden",
+        "screenName" : "Open Data Camden",
+        "type" : "interactive"
+      },
+      "flags" : [ "default", "restorable", "restorePossibleForType" ]
+    }
+  },
+  "data" : [ [ 204, "55FE58A2-E7E9-4E92-80C3-ED2DD94901FC", 204, 1447082076, "1113", 1447082076, "1113", null, "CTIL", "141661", "Thistle Hotel", "Bloomsbury Way", "WC1A 2SD", "E05000138", "Holborn and Covent Garden", "530195", "181534", "-0.124992", "51.517742", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "51.517742", "-0.124992", null, false ], "Defined by data provider", "2015-11-09T15:14:20", "16" ]
+, [ 205, "B414925A-600D-452D-AFE3-EAF7D20865E4", 205, 1447082076, "1113", 1447082076, "1113", null, "CTIL", "143463", "SOUTH HAMPSTEAD", "DENTON TOWER  MALDEN CRESCENT", "NW1 8BN", "E05000136", "Haverstock", "528345", "184573", "-0.150533", "51.545476", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "51.545476", "-0.150533", null, false ], "Defined by data provider", "2015-11-09T15:14:20", "38" ]
+, [ 206, "9E4223F1-73BD-4329-B3F3-5D070483F358", 206, 1447082076, "1113", 1447082076, "1113", null, "CTIL", "140572", "@@MX Kings Cross", "Sandfield House", "WC1H 8DU", "E05000141", "King's Cross", "530409", "182732", "-0.121466", "51.528459", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "51.528459", "-0.121466", null, false ], "Defined by data provider", "2015-11-09T15:14:20", "12" ]
+, [ 207, "8AC87236-7DC3-4B5A-8B97-873BD569D900", 207, 1447082076, "1113", 1447082076, "1113", null, "EE and Three", "53663", "MAPLE HOUSE", "MAPLE HOUSE TOTTENHAM COURT ROAD CAMDEN LONDON LONDON: CAMDEN", "WC1E 0XY", "E05000129", "Bloomsbury", "529322", "182222", "-0.137314", "51.524125", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "51.524125", "-0.137314", null, false ], "Defined by data provider", "2015-11-09T15:14:20", "124" ]
+, [ 208, "2C4D0FC3-AEA2-42BA-A143-0307A7502665", 208, 1447082076, "1113", 1447082076, "1113", null, "Three and EE", "98163", "HOLBORN HALL", "Holborn Hall 100 Grays Inn Road  LONDON LONDON: CAMDEN", "WC1X 8AL", "E05000138", "Holborn and Covent Garden", "531023", "181950", "-0.112911", "51.521289", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "51.521289", "-0.112911", null, false ], "Defined by data provider", "2015-11-09T15:14:20", "187" ]
+, [ 209, "F95632CA-D427-402A-B62E-78B05003DFE0", 209, 1447082076, "1113", 1447082076, "1113", null, "EE", "13770", "ELLERTON", "MILL LANE, KILBURN, LONDON, VINCENT DI FRANCO.,", "NW2 3SL", "E05000132", "Fortune Green", "524770", "185102", "-0.201873", "51.551031", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "51.551031", "-0.201873", null, false ], "Defined by data provider", "2015-11-09T15:14:20", "84" ]
+, [ 210, "EFF2BECE-49AA-4FAA-BCFB-5339240BB719", 210, 1447082076, "1113", 1447082076, "1113", null, "CTIL", "141929", "24 New Wharf Road", "New Warf Road", "N1 9RR", "E05000143", "St Pancras and Somers Town", "530288", "183056", "-0.12309", "51.531398", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "51.531398", "-0.12309", null, false ], "Defined by data provider", "2015-11-09T15:14:20", "76" ]
+, [ 211, "CF7D113B-74AF-4227-B5CE-B924B6B9B9C8", 211, 1447082076, "1113", 1447082076, "1113", null, "CTIL", "137728", "POLECAT OUTSIDE 358 KILBURN HI", "POLECAT OUTSIDE 358 KILBURN HIGH RD", "NW6 2QH", "E05000145", "West Hampstead", "524691", "184602", "-0.203189", "51.546555", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "51.546555", "-0.203189", null, false ], "Defined by data provider", "2015-11-09T15:14:20", "31" ]
+, [ 212, "AE1DAC3D-0BC4-4594-A8D6-8281DE69C1D1", 212, 1447082076, "1113", 1447082076, "1113", null, "EE", "14777", "LAMPOST WEST HEATH ROAD", "WEST HEATH ROAD, HAMPSTEAD, , LONDON,", "NW3 7XD", "E05000133", "Frognal and Fitzjohns", "525869", "186388", "-0.185571", "51.562344", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "51.562344", "-0.185571", null, false ], "Defined by data provider", "2015-11-09T15:14:20", "104" ]
+, [ 213, "9E18522A-A09F-4FAE-8989-31F03AC2FE32", 213, 1447082076, "1113", 1447082076, "1113", null, "CTIL", "140651", "Euston Square", "Station Concourse", "NW1 1DN", "E05000142", "Regent's Park", "529499", "182804", "-0.134551", "51.529315", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "51.529315", "-0.134551", null, false ], "Defined by data provider", "2015-11-09T15:14:20", "67" ]
+, [ 214, "2E420FC2-4211-454F-BBF6-573E32C2B119", 214, 1447082076, "1113", 1447082076, "1113", null, "CTIL", "146758", "SMUGGLERS TAVERN", "SMUGGLERS TAVERN", "W1P 5DG", "E05000129", "Bloomsbury", "529067", "182178", "-0.141004", "51.523788", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "51.523788", "-0.141004", null, false ], "Defined by data provider", "2015-11-09T15:14:20", "23" ]
+, [ 215, "FEAE34F2-AECA-4586-BEC6-19F8446ABD02", 215, 1447082076, "1113", 1447082076, "1113", null, "Three and EE", "50050", "NO 1 EUSTON ROAD", "NO 1 EUSTON ROAD 1 Euston Road  LONDON LONDON: CAMDEN", "NW1 2SA", "E05000141", "King's Cross", "530328", "182934", "-0.122559", "51.530293", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "51.530293", "-0.122559", null, false ], "Defined by data provider", "2015-11-09T15:14:20", "161" ]
+, [ 216, "204FF2B7-BA97-4C7D-82B6-A3AA3027A350", 216, 1447082076, "1113", 1447082076, "1113", null, "CTIL", "144338", "CHALK FARM - HSDPA", "WAVERLEY COURT", "NW3 4SB", "E05000128", "Belsize", "527636", "184510", "-0.160775", "51.54507", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "51.54507", "-0.160775", null, false ], "Defined by data provider", "2015-11-09T15:14:20", "44" ]
+, [ 217, "91761A93-6737-41AC-8FAD-744B2C9FDF07", 217, 1447082076, "1113", 1447082076, "1113", null, "EE", "14396", "MARRIOTT REGENTS PARK", "128 KING HENRYS ROAD, LONDON, , LONDON,", "NW3 3ST", "E05000128", "Belsize", "526989", "184172", "-0.170222", "51.542178", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "51.542178", "-0.170222", null, false ], "Defined by data provider", "2015-11-09T15:14:20", "93" ]
+, [ 218, "6FCCE4BA-EFC7-4548-819B-7F1B9E8C1A78", 218, 1447082076, "1113", 1447082076, "1113", null, "CTIL", "136476", "RUSSELL SQUARE", "ROYAL NATIONAL HOTEL", "WC1H 0DG", "E05000129", "Bloomsbury", "530030", "182180", "-0.12713", "51.523585", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "51.523585", "-0.12713", null, false ], "Defined by data provider", "2015-11-09T15:14:20", "13" ]
+, [ 219, "66B7F449-11D5-48D7-95E9-354491DBCE5A", 219, 1447082076, "1113", 1447082076, "1113", null, "EE and Three", "98472", "12 OVAL ROAD", "Helical Bar 12 Oval Road Camden Town LONDON LONDON: CAMDEN", "NW1 7BH", "E05000130", "Camden Town with Primrose Hill", "528575", "183925", "-0.147454", "51.5396", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "51.5396", "-0.147454", null, false ], "Defined by data provider", "2015-11-09T15:14:20", "148" ]
+, [ 220, "5A7767C9-C49C-48C2-BDA3-E2399036644B", 220, 1447082076, "1113", 1447082076, "1113", null, "EE", "13927", "THE TAVISTOCK CENTRE", "THE TAVISTOCK CENTRE, BELSIZE LANE, LONDON, ,", "NW3 4DY", "E05000133", "Frognal and Fitzjohns", "526619", "184681", "-0.175371", "51.546836", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "51.546836", "-0.175371", null, false ], "Defined by data provider", "2015-11-09T15:14:20", "87" ]
+, [ 221, "4711971F-0484-4E5D-A948-EFFE562BA40A", 221, 1447082076, "1113", 1447082076, "1113", null, "Three and EE", "98491", "LINTON HOUSE", "Linton House 39-51 Highgate Road Kentish Town LONDON LONDON: CAMDEN", "NW5 1RS", "E05000139", "Kentish Town", "528820", "185460", "-0.143362", "51.553339", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "51.553339", "-0.143362", null, false ], "Defined by data provider", "2015-11-09T15:14:20", "194" ]
+, [ 222, "DB55034F-4189-414D-A0DB-0C70D1DBC52B", 222, 1447082076, "1113", 1447082076, "1113", null, "EE and Three", "25035", "NW0036 - KILBURN MECCA BINGO 161158", "Kilburn Mecca Bingo Hall, Kilburn High Road, , London", "NW6 4JX", "E05000140", "Kilburn", "525104", "184057", "-0.19743", "51.541566", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "51.541566", "-0.19743", null, false ], "Defined by data provider", "2015-11-09T15:14:20", "155" ]
+, [ 223, "E3C834E7-C175-4914-BA35-DAC3A33581D5", 223, 1447082076, "1113", 1447082076, "1113", null, "CTIL", "144584", "BEDFORD ROW - 3G", "DUTCH HOUSE", "WC1V 7LL", "E05000138", "Holborn and Covent Garden", "530966", "181591", "-0.113865", "51.518076", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "51.518076", "-0.113865", null, false ], "Defined by data provider", "2015-11-09T15:14:20", "6" ]
+, [ 224, "3CAD6D76-EA7B-4639-8309-7C8269654A75", 224, 1447082076, "1113", 1447082076, "1113", null, "EE and Three", "50020", "133A - 135 GRAYS INN ROAD", "133A - 135 GRAYS INN ROAD 133A - 135 GRAYS INN ROAD  LONDON WC1 BLOOMSBURY LONDON: CAMDEN", "WC1X 8TZ", "E05000138", "Holborn and Covent Garden", "530811", "182253", "-0.115852", "51.524061", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "51.524061", "-0.115852", null, false ], "Defined by data provider", "2015-11-09T15:14:20", "115" ]
+, [ 225, "52064771-E434-4C9E-8F90-F2F8246F7673", 225, 1447082076, "1113", 1447082076, "1113", null, "EE", "14594", "LP DRUMMOND STREET", "LP DRUMMOND STREET, 201 DRUMMOND STREET, CAMDEN, LONDON,", "NW1 3HP", "E05000142", "Regent's Park", "529099", "182431", "-0.14045", "51.526054", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "51.526054", "-0.14045", null, false ], "Defined by data provider", "2015-11-09T15:14:20", "96" ]
+, [ 226, "685EA980-40DE-47F1-BCE1-0B773E0F5C29", 226, 1447082076, "1113", 1447082076, "1113", null, "Three and EE", "25035", "NW0036 - KILBURN MECCA BINGO 161158", "Kilburn Mecca Bingo Hall, Kilburn High Road, , London", "NW6 4JX", "E05000140", "Kilburn", "525104", "184057", "-0.19743", "51.541566", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "51.541566", "-0.19743", null, false ], "Defined by data provider", "2015-11-09T15:14:20", "199" ]
+, [ 227, "C8367AF4-F167-4F3F-84C5-250D0F9929B1", 227, 1447082076, "1113", 1447082076, "1113", null, "EE", "14616", "EUSTON STATION SIGN POST", "PAVEMENT ADJ. TO MELTON ST AND, EUSTON RD,, LONDON, ,", "WC1H 0DS", "E05000142", "Regent's Park", "529574", "182500", "-0.133582", "51.526566", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "51.526566", "-0.133582", null, false ], "Defined by data provider", "2015-11-09T15:14:20", "100" ]
+, [ 228, "093347F9-B7BF-4318-ADA3-897826B37CA5", 228, 1447082076, "1113", 1447082076, "1113", null, "EE and Three", "27469", "WC0004 - HYG & TROPICAL MED WC0004 92155", "Hygiene & Tropical Medicine, 1 Keppel Street, London, London", "WC1E 7HT", "E05000129", "Bloomsbury", "529849", "181871", "-0.129851", "51.52085", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "51.52085", "-0.129851", null, false ], "Defined by data provider", "2015-11-09T15:14:20", "158" ]
+, [ 229, "74CFD496-70BD-4ABE-879B-C212AB6D7C91", 229, 1447082076, "1113", 1447082076, "1113", null, "CTIL", "136011", "BLOOMSBURY", "HOLBORN TOWER", "WC1V 6PW", "E05000138", "Holborn and Covent Garden", "530350", "181508", "-0.122769", "51.517473", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "51.517473", "-0.122769", null, false ], "Defined by data provider", "2015-11-09T15:14:20", "7" ]
+, [ 230, "F8720335-9A54-4E2F-AA5B-1EBF001B4A3D", 230, 1447082076, "1113", 1447082076, "1113", null, "Three and EE", "98116", "CASTLEWOOD HOUSE", "Castlewood House 77-91 New Oxford Street  LONDON LONDON: CAMDEN", "WC1A 1DT", "E05000138", "Holborn and Covent Garden", "529960", "181405", "-0.128424", "51.516637", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "51.516637", "-0.128424", null, false ], "Defined by data provider", "2015-11-09T15:14:20", "180" ]
+, [ 231, "9C3A3878-1B5F-4DA8-A717-D9A3774A949A", 231, 1447082076, "1113", 1447082076, "1113", null, "EE and Three", "98120", "HOLBORN TOWER", "Holborn Tower 137 High Holborn  LONDON LONDON: CAMDEN", "WC1V 6PW", "E05000138", "Holborn and Covent Garden", "530345", "181505", "-0.122842", "51.517447", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "51.517447", "-0.122842", null, false ], "Defined by data provider", "2015-11-09T15:14:20", "138" ]
+, [ 232, "DF607557-B234-41AC-AA36-BEE042127A9C", 232, 1447082076, "1113", 1447082076, "1113", null, "CTIL", "137727", "FINCHLEY ROAD", "ST JOHNS COURT", "NW3 6LE", "E05000144", "Swiss Cottage", "526279", "184632", "-0.180289", "51.546472", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "51.546472", "-0.180289", null, false ], "Defined by data provider", "2015-11-09T15:14:20", "41" ]
+, [ 233, "C50B1997-CBEE-413D-AC72-C6B0A7EDD50F", 233, 1447082076, "1113", 1447082076, "1113", null, "EE and Three", "90002", "EASTMAN DENTAL HOSPITAL", "Eastman Dental Hospital 256 Grays Inn Road  LONDON LONDON: CAMDEN", "WC1X 8LD", "E05000141", "King's Cross", "530750", "182500", "-0.116639", "51.526295", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "51.526295", "-0.116639", null, false ], "Defined by data provider", "2015-11-09T15:14:20", "127" ]
+, [ 234, "61133D57-E5F7-41AD-962F-04832D26A6DF", 234, 1447082076, "1113", 1447082076, "1113", null, "CTIL", "147354", "DRUMMOND STREET", "AMBALA GTC", "NW1 2HN", "E05000142", "Regent's Park", "529340", "182545", "-0.136936", "51.527024", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "51.527024", "-0.136936", null, false ], "Defined by data provider", "2015-11-09T15:14:20", "63" ]
+, [ 235, "57DBAAFF-4710-4A8D-9731-C404B96DB649", 235, 1447082076, "1113", 1447082076, "1113", null, "CTIL", "141475", "@@H Bonnington Hote", "Southampton Row", "WC1B 4BH", "E05000138", "Holborn and Covent Garden", "530400", "181810", "-0.121937", "51.520175", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "51.520175", "-0.121937", null, false ], "Defined by data provider", "2015-11-09T15:14:20", "15" ]
+, [ 236, "69BAE517-E266-46C0-93C4-1365D72E9905", 236, 1447082076, "1113", 1447082076, "1113", null, "CTIL", "137428", "Greater London House", "Hampstead Road", "NW1 1NH", "E05000142", "Regent's Park", "528830", "182840", "-0.144176", "51.529791", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "51.529791", "-0.144176", null, false ], "Defined by data provider", "2015-11-09T15:14:20", "66" ]
+, [ 237, "CFC4C4FE-3F09-4071-993C-CE273340FF3E", 237, 1447082076, "1113", 1447082076, "1113", null, "EE", "14393", "EUSTON NOVOTEL", "SHAW PARK PLAZA HOTEL, 100 - 110 EUSTON ROAD, LONDON, ,", "NW1 2AJ", "E05000143", "St Pancras and Somers Town", "529915", "182714", "-0.12859", "51.528411", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "51.528411", "-0.12859", null, false ], "Defined by data provider", "2015-11-09T15:14:20", "92" ]
+, [ 238, "414DB172-6FD7-4695-A461-321C948BFFD9", 238, 1447082076, "1113", 1447082076, "1113", null, "Three and EE", "50020", "133A - 135 GRAYS INN ROAD", "133A - 135 GRAYS INN ROAD 133A - 135 GRAYS INN ROAD  LONDON WC1 BLOOMSBURY LONDON: CAMDEN", "WC1X 8TZ", "E05000138", "Holborn and Covent Garden", "530811", "182253", "-0.115852", "51.524061", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "51.524061", "-0.115852", null, false ], "Defined by data provider", "2015-11-09T15:14:20", "160" ]
+, [ 239, "F75A1AB7-05B9-40D2-B7A8-C0B7AB8E810D", 239, 1447082076, "1113", 1447082076, "1113", null, "EE", "13703", "HOLBORN TOWER", "HOLBORN TOWER, 137 HIGH HOLBORN, LONDON, ,", "WC2B 5EG", "E05000138", "Holborn and Covent Garden", "530345", "181503", "-0.122843", "51.517429", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "51.517429", "-0.122843", null, false ], "Defined by data provider", "2015-11-09T15:14:20", "82" ]
+, [ 240, "1EFA2722-332A-4722-B841-A99D0B563CC4", 240, 1447082076, "1113", 1447082076, "1113", null, "Three and EE", "98337", "CENTRE HEIGHTS", "CENTRE HEIGHTS 137 Finchley Road Swiss Cottage LONDON LONDON: CAMDEN", "NW3 6HY", "E05000144", "Swiss Cottage", "526612", "184362", "-0.175587", "51.543971", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "51.543971", "-0.175587", null, false ], "Defined by data provider", "2015-11-09T15:14:20", "190" ]
+, [ 241, "B05D0DDC-B9CC-45DD-B934-656FFE0FA614", 241, 1447082076, "1113", 1447082076, "1113", null, "Three and EE", "50060", "EUSTON TRAVEL INN", "EUSTON TRAVEL INN 141 EUSTON ROAD  LONDON LONDON: CAMDEN", "NW1 2AL", "E05000141", "King's Cross", "529900", "182650", "-0.12883", "51.527839", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "51.527839", "-0.12883", null, false ], "Defined by data provider", "2015-11-09T15:14:20", "162" ]
+, [ 242, "2EF5A339-9B91-4C7D-8661-B8E81D4C5F08", 242, 1447082076, "1113", 1447082076, "1113", null, "EE", "13771", "ROCHESTER COURT", "ST PANCRAS ESTATE, ROCHESTER SQUARE, CAMDEN TOWN, LONDON,", "NW1 9EL", "E05000131", "Cantelowes", "529377", "184320", "-0.135752", "51.542967", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "51.542967", "-0.135752", null, false ], "Defined by data provider", "2015-11-09T15:14:20", "85" ]
+, [ 243, "09BDB7FC-4FDF-4C3E-9D7C-3FA59CD568F7", 243, 1447082076, "1113", 1447082076, "1113", null, "CTIL", "146214", "Hertfordshire Constabulary", "190 High Holborn", "WC1R 4LN", "E05000138", "Holborn and Covent Garden", "530800", "181570", "-0.116264", "51.517926", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "51.517926", "-0.116264", null, false ], "Defined by data provider", "2015-11-09T15:14:20", "9" ]
+, [ 244, "23F92B71-0779-4128-A914-BB804B05E939", 244, 1447082076, "1113", 1447082076, "1113", null, "CTIL", "144481", "KENTISH TOWN - 2G", "8 ANGLERS LANE", "NW5 3DG", "E05000139", "Kentish Town", "528893", "184775", "-0.142561", "51.547166", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "51.547166", "-0.142561", null, false ], "Defined by data provider", "2015-11-09T15:14:20", "35" ]
+, [ 245, "CC58616A-53B1-4B13-9ECA-B67F7C6C2AE1", 245, 1447082076, "1113", 1447082076, "1113", null, "Three and EE", "98288", "ALLINGHAM COURT", "ALLINGHAM COURT 17-24 Haverstock Hill,Hampstead North West London LONDON LONDON: CAMDEN", "NW3 2AH", "E05000135", "Hampstead Town", "527330", "185150", "-0.164954", "51.550891", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "51.550891", "-0.164954", null, false ], "Defined by data provider", "2015-11-09T15:14:20", "188" ]
+, [ 246, "2536E238-A55E-4886-8997-050D4CFE8F77", 246, 1447082076, "1113", 1447082076, "1113", null, "Three and EE", "98123", "NEW PENDEREL HOUSE", "S TAHTA & A TANIELIAN 283-288 HIGH HOLBORN  LONDON LONDON: LONDON CITY", "WC1V 7HZ", "E05000138", "Holborn and Covent Garden", "530835", "181585", "-0.115754", "51.518053", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "51.518053", "-0.115754", null, false ], "Defined by data provider", "2015-11-09T15:14:20", "185" ]
+, [ 247, "CB779F3B-B01E-458C-9683-7E39BF4E61BB", 247, 1447082076, "1113", 1447082076, "1113", null, "EE and Three", "50769", "ALVANLEY COURTNW", "ALVANLEY COURTNW 250 Finchley Road  LONDON LONDON: CAMDEN", "NW3 6DL", "E05000133", "Frognal and Fitzjohns", "525760", "185325", "-0.187523", "51.552815", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "51.552815", "-0.187523", null, false ], "Defined by data provider", "2015-11-09T15:14:20", "120" ]
+, [ 248, "8E3EA3FA-AF94-465B-8554-78C596F6D550", 248, 1447082076, "1113", 1447082076, "1113", null, "Three and EE", "98121", "CAA HOUSE", "CAA House 45-49 Kingsway  LONDON LONDON: WESTMINSTER", "WC2B 6TJ", "E05000138", "Holborn and Covent Garden", "530575", "181214", "-0.119637", "51.514779", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "51.514779", "-0.119637", null, false ], "Defined by data provider", "2015-11-09T15:14:20", "184" ]
+, [ 249, "4BC22574-74B5-4D01-BBE1-72E6AA346A43", 249, 1447082076, "1113", 1447082076, "1113", null, "Three and EE", "51138", "ST MARYS WITH ALL SAINTS CHURCH", "ST MARYS PRIORY ROAD KILBURN LONDON LONDON", "NW6 4JJ", "E05000144", "Swiss Cottage", "525652", "184023", "-0.189544", "51.541138", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "51.541138", "-0.189544", null, false ], "Defined by data provider", "2015-11-09T15:14:20", "167" ]
+, [ 250, "BEC52C65-CD55-4A7A-B0EC-67756B35F803", 250, 1447082076, "1113", 1447082076, "1113", null, "CTIL", "143505", "EUSTON UNDERPASS", "FITZROY HOUSE", "NW1 3AL", "E05000129", "Bloomsbury", "529079", "182223", "-0.140815", "51.52419", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "51.52419", "-0.140815", null, false ], "Defined by data provider", "2015-11-09T15:14:20", "61" ]
+, [ 251, "974848F0-A7F3-4573-A44B-ED9B653CDFDB", 251, 1447082076, "1113", 1447082076, "1113", null, "EE and Three", "90024", "SYDNEY BOYD COURT", "Sydney Boyd Court (Liebert/Hiross) West End Lane  LONDON LONDON: CAMDEN", "NW6 4QY", "E05000144", "Swiss Cottage", "525425", "184170", "-0.192763", "51.54251", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "51.54251", "-0.192763", null, false ], "Defined by data provider", "2015-11-09T15:14:20", "129" ]
+, [ 252, "96DF8E8D-3FFB-4317-BDE5-D5A0212B0BD7", 252, 1447082076, "1113", 1447082076, "1113", null, "CTIL", "137415", "Maida Vale ATE", "Maida Vale ATE", "W9 1QD", "E05000140", "Kilburn", "525750", "183380", "-0.188361", "51.535338", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "51.535338", "-0.188361", null, false ], "Defined by data provider", "2015-11-09T15:14:20", "18" ]
+, [ 253, "66E8A597-E9B8-4F1A-AAD5-A2868595CCFC", 253, 1447082076, "1113", 1447082076, "1113", null, "EE", "14979", "KT AUTO SERVICES", "107E BATHOLOMEW ROAD, KENTISH TOWN, , LONDON,", "NW5 2AS", "E05000131", "Cantelowes", "529414", "184788", "-0.135047", "51.547164", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "51.547164", "-0.135047", null, false ], "Defined by data provider", "2015-11-09T15:14:20", "109" ]
+, [ 254, "610674B1-44C6-4440-98C0-3488B18E7BB1", 254, 1447082076, "1113", 1447082076, "1113", null, "EE and Three", "98123", "NEW PENDEREL HOUSE", "S TAHTA & A TANIELIAN 283-288 HIGH HOLBORN  LONDON LONDON: LONDON CITY", "WC1V 7HZ", "E05000138", "Holborn and Covent Garden", "530835", "181585", "-0.115754", "51.518053", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "51.518053", "-0.115754", null, false ], "Defined by data provider", "2015-11-09T15:14:20", "140" ]
+, [ 255, "3D17C2D5-42FE-4E92-9037-95B42F0CE61E", 255, 1447082076, "1113", 1447082076, "1113", null, "EE and Three", "98336", "SPANIARDS ROAD DNS", "HAMPSTEAD HEATH SPANIARDS ROAD HAMPSTEAD LONDON LONDON: CAMDEN", "NW3 7ET", "E05000135", "Hampstead Town", "526393", "186680", "-0.177911", "51.564851", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "51.564851", "-0.177911", null, false ], "Defined by data provider", "2015-11-09T15:14:20", "144" ]
+, [ 256, "5E1935E4-1E47-46C4-9029-0E91061D8228", 256, 1447082076, "1113", 1447082076, "1113", null, "CTIL", "145707", "HAMPSTEAD REP. FOR 653 NTQ PAR", "VERNON COURT EAA", "NW2 2PD", "E05000132", "Fortune Green", "525100", "185950", "-0.196815", "51.558579", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "51.558579", "-0.196815", null, false ], "Defined by data provider", "2015-11-09T15:14:20", "50" ]
+, [ 257, "5FC7DA32-D092-4855-97E9-29A328854265", 257, 1447082076, "1113", 1447082076, "1113", null, "Three and EE", "98120", "HOLBORN TOWER", "Holborn Tower 137 High Holborn  LONDON LONDON: CAMDEN", "WC1V 6PW", "E05000138", "Holborn and Covent Garden", "530345", "181505", "-0.122842", "51.517447", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "51.517447", "-0.122842", null, false ], "Defined by data provider", "2015-11-09T15:14:20", "183" ]
+, [ 258, "669FB22F-7504-4993-BF6C-45D75882E118", 258, 1447082076, "1113", 1447082076, "1113", null, "CTIL", "136421", "Ashley House", "Ashley House", "NW3 7DX", "E05000133", "Frognal and Fitzjohns", "525740", "185340", "-0.187806", "51.552954", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "51.552954", "-0.187806", null, false ], "Defined by data provider", "2015-11-09T15:14:20", "40" ]
+, [ 259, "ACC3DEF1-2A90-40E0-A98D-B9DD77D0B2F6", 259, 1447082076, "1113", 1447082076, "1113", null, "Three and EE", "25032", "NW0033 - WAVERLEY COURT 220268", "Waverly court, 41 Steeles Road, Hampstead, London", "NW3 4SB", "E05000128", "Belsize", "527636", "184510", "-0.160775", "51.54507", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "51.54507", "-0.160775", null, false ], "Defined by data provider", "2015-11-09T15:14:20", "198" ]
+, [ 260, "98A2F515-5D0F-44B7-98AB-92AC100DF04A", 260, 1447082076, "1113", 1447082076, "1113", null, "Three and EE", "90026", "ROCHESTER COURT", "Rochester Court Rochester Square  LONDON LONDON: CAMDEN", "NW1 9EL", "E05000131", "Cantelowes", "529350", "184330", "-0.136137", "51.543063", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "51.543063", "-0.136137", null, false ], "Defined by data provider", "2015-11-09T15:14:20", "175" ]
+, [ 261, "C28356F4-A23E-431D-8FC7-830D3443B305", 261, 1447082076, "1113", 1447082076, "1113", null, "EE and Three", "98465", "BT SPEC HARRISON STREET TE", "BT SPEC HARRISON STREET TE Harrison Street  LONDON LONDON: CAMDEN", "WC1V 7EJ", "E05000141", "King's Cross", "530470", "182620", "-0.120629", "51.527438", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "51.527438", "-0.120629", null, false ], "Defined by data provider", "2015-11-09T15:14:20", "146" ]
+, [ 262, "0D507F75-6B7A-4F83-8657-0F3B14A69E3D", 262, 1447082076, "1113", 1447082076, "1113", null, "EE and Three", "51139", "338 KILBURN HIGH ROAD", "KILBURN 338 KILBURN HIGH ROAD KILBURN LONDON LONDON: CAMDEN", "NW6 2QN", "E05000145", "West Hampstead", "524771", "184519", "-0.202065", "51.545791", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "51.545791", "-0.202065", null, false ], "Defined by data provider", "2015-11-09T15:14:20", "123" ]
+, [ 263, "DB664176-7157-4E3D-AB53-2A5C35DA7848", 263, 1447082076, "1113", 1447082076, "1113", null, "CTIL", "136574", "Cornerstone 2366_Voda 77817", "Bedford House", "NW1 7JR", "E05000130", "Camden Town with Primrose Hill", "529026", "183909", "-0.140961", "51.539353", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "51.539353", "-0.140961", null, false ], "Defined by data provider", "2015-11-09T15:14:20", "56" ]
+, [ 264, "319413F6-64DE-4F69-A0BA-803757FA4B3F", 264, 1447082076, "1113", 1447082076, "1113", null, "EE and Three", "90087", "QUEEN CRESCENT LIBRARY", "QUEEN CRESCENT LIBRARY Queen Crescent Gospel Oak LONDON LONDON: CAMDEN", "NW5 4HH", "E05000134", "Gospel Oak", "528225", "185060", "-0.152085", "51.549879", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "51.549879", "-0.152085", null, false ], "Defined by data provider", "2015-11-09T15:14:20", "132" ]
+, [ 265, "70EDAB1E-15CC-4193-B44E-3C47E40EA09E", 265, 1447082076, "1113", 1447082076, "1113", null, "Three and EE", "51139", "338 KILBURN HIGH ROAD", "KILBURN 338 KILBURN HIGH ROAD KILBURN LONDON LONDON: CAMDEN", "NW6 2QN", "E05000145", "West Hampstead", "524771", "184519", "-0.202065", "51.545791", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "51.545791", "-0.202065", null, false ], "Defined by data provider", "2015-11-09T15:14:20", "168" ]
+, [ 266, "C6745650-B39A-4399-B68A-3CD1218EF086", 266, 1447082076, "1113", 1447082076, "1113", null, "Three and EE", "90087", "QUEEN CRESCENT LIBRARY", "QUEEN CRESCENT LIBRARY Queen Crescent Gospel Oak LONDON LONDON: CAMDEN", "NW5 4HH", "E05000134", "Gospel Oak", "528225", "185060", "-0.152085", "51.549879", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "51.549879", "-0.152085", null, false ], "Defined by data provider", "2015-11-09T15:14:20", "177" ]
+, [ 267, "B2C90B6B-8D96-4A13-848D-CDFDFE36F6E6", 267, 1447082076, "1113", 1447082076, "1113", null, "EE", "14634", "UNI OF LONDON  SCH OF PHARMACY", "UNIV OF LONDON SCH OF PHARMACY, 29-39 BRUNSWICK SQUARE, LONDON, ,", "WC1N 1AX", "E05000141", "King's Cross", "530352", "182349", "-0.122429", "51.52503", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "51.52503", "-0.122429", null, false ], "Defined by data provider", "2015-11-09T15:14:20", "102" ]
+, [ 268, "F6E2504E-556A-45BB-844B-62FCE74EDB9A", 268, 1447082076, "1113", 1447082076, "1113", null, "CTIL", "137431", "St Pancras Hospital", "St Pancras Hospital", "NW1 0PE", "E05000143", "St Pancras and Somers Town", "529670", "183590", "-0.131798", "51.536339", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "51.536339", "-0.131798", null, false ], "Defined by data provider", "2015-11-09T15:14:20", "70" ]
+, [ 269, "F6C91568-2D63-42EA-9DF3-DF129B0764D6", 269, 1447082076, "1113", 1447082076, "1113", null, "CTIL", "146756", "74 CHARLOTTE STREET", "74 CHARLOTTE STREET", "W1P 1LR", "E05000129", "Bloomsbury", "529372", "181815", "-0.136743", "51.520456", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "51.520456", "-0.136743", null, false ], "Defined by data provider", "2015-11-09T15:14:20", "24" ]
+, [ 270, "38491A73-4E17-4563-BD97-E7C3A3CBC4FC", 270, 1447082076, "1113", 1447082076, "1113", null, "EE and Three", "51136", "NORTH END WAY DNS", "NORTH END WAY NORTH END WAY HAMPSTEAD LONDON LONDON: CAMDEN", "NW3 1EA", "E05000135", "Hampstead Town", "526285", "186365", "-0.179581", "51.562044", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "51.562044", "-0.179581", null, false ], "Defined by data provider", "2015-11-09T15:14:20", "121" ]
+, [ 271, "C27B2F0F-4F36-4CED-B532-BEA626F6619B", 271, 1447082076, "1113", 1447082076, "1113", null, "CTIL", "142164", "1 Brandon Road", "1 Brandon Road", "N7 9AG", "E05000131", "Cantelowes", "529984", "184332", "-0.126999", "51.542935", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "51.542935", "-0.126999", null, false ], "Defined by data provider", "2015-11-09T15:14:20", "74" ]
+, [ 272, "E475F3C4-C6DE-4389-923F-20A4F35EFE81", 272, 1447082076, "1113", 1447082076, "1113", null, "EE and Three", "90001", "124 THEOBALDS - MERCURY HOUSE", "124 THEOBALDS ROAD (A/C) 110-124 THEOBALDS ROAD   LONDON WC1 BLOOMSBURY LONDON: CAMDEN", "WC1X 8RX", "E05000138", "Holborn and Covent Garden", "530540", "181790", "-0.119928", "51.519963", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "51.519963", "-0.119928", null, false ], "Defined by data provider", "2015-11-09T15:14:20", "126" ]
+, [ 273, "BFE4BE9C-5F4A-4968-8ED3-32E80706AB0C", 273, 1447082076, "1113", 1447082076, "1113", null, "EE", "14617", "MYHOTEL", "11-13 BAYLEY STREET, BEDFORD SQUARE, LONDON, ,", "WC1B 3HD", "E05000129", "Bloomsbury", "529721", "181644", "-0.131779", "51.51884", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "51.51884", "-0.131779", null, false ], "Defined by data provider", "2015-11-09T15:14:20", "101" ]
+, [ 274, "41129DFE-EED4-4B3E-89CD-F16AD8C750F7", 274, 1447082076, "1113", 1447082076, "1113", null, "EE and Three", "32033", "CANTERBURY MANSIONS", "CANTERBURY MANSIONS LYMINGTON ROAD WEST HAMPSTREAD", "NW6 1SE", "E05000145", "West Hampstead", "525546", "184920", "-0.190752", "51.549223", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "51.549223", "-0.190752", null, false ], "Defined by data provider", "2015-11-09T15:14:20", "113" ]
+, [ 275, "AFF40950-CA42-4179-8CAA-6FEA87C5DA17", 275, 1447082076, "1113", 1447082076, "1113", null, "Three and EE", "98472", "12 OVAL ROAD", "Helical Bar 12 Oval Road Camden Town LONDON LONDON: CAMDEN", "NW1 7BH", "E05000130", "Camden Town with Primrose Hill", "528575", "183925", "-0.147454", "51.5396", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "51.5396", "-0.147454", null, false ], "Defined by data provider", "2015-11-09T15:14:20", "193" ]
+, [ 276, "E9231EEC-89C1-4459-8278-E4FA1C9CFDAC", 276, 1447082076, "1113", 1447082076, "1113", null, "CTIL", "141798", "Cornerstone 1000", "100 Grays Inn Road", "WC1X 0PB", "E05000138", "Holborn and Covent Garden", "530930", "181970", "-0.114243", "51.521491", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "51.521491", "-0.114243", null, false ], "Defined by data provider", "2015-11-09T15:14:20", "5" ]
+, [ 277, "33AEB9D6-843E-4762-BA3F-7F3148EAFE22", 277, 1447082076, "1113", 1447082076, "1113", null, "CTIL", "144241", "KILBURN HIGH ROAD 2G", "134-136 KILBURN HIGH RD", "NW6 4JD", "E05000140", "Kilburn", "525238", "183892", "-0.195557", "51.540053", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "51.540053", "-0.195557", null, false ], "Defined by data provider", "2015-11-09T15:14:20", "30" ]
+, [ 278, "80E64FAE-CFFA-4C7C-99D4-B4A922E96ADB", 278, 1447082076, "1113", 1447082076, "1113", null, "EE and Three", "90033", "ST PANCRAS HOSPITAL", "St Pancras Hospital 4 St Pancras Way  LONDON LONDON: CAMDEN", "NW1 0PE", "E05000143", "St Pancras and Somers Town", "529665", "183495", "-0.131905", "51.535487", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "51.535487", "-0.131905", null, false ], "Defined by data provider", "2015-11-09T15:14:20", "131" ]
+, [ 279, "15AE492A-9BFA-45BD-80EC-8646B255E993", 279, 1447082076, "1113", 1447082076, "1113", null, "EE and Three", "98288", "ALLINGHAM COURT", "ALLINGHAM COURT 17-24 Haverstock Hill,Hampstead North West London LONDON LONDON: CAMDEN", "NW3 2AH", "E05000135", "Hampstead Town", "527330", "185150", "-0.164954", "51.550891", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "51.550891", "-0.164954", null, false ], "Defined by data provider", "2015-11-09T15:14:20", "143" ]
+, [ 280, "905127C2-AEA9-46B0-BA18-82759C0CD99D", 280, 1447082076, "1113", 1447082076, "1113", null, "CTIL", "146754", "DENMARK STREET", "MUSIC GROUND (PREV HELTER SKELTER BOOKSHOP)", "WC2H 8LL", "E05000138", "Holborn and Covent Garden", "529907", "181257", "-0.129242", "51.515319", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "51.515319", "-0.129242", null, false ], "Defined by data provider", "2015-11-09T15:14:20", "2" ]
+, [ 281, "3EC3C03E-A596-4A4E-AAB0-7BEE4D4062E7", 281, 1447082076, "1113", 1447082076, "1113", null, "Three and EE", "98162", "40 MELTON STREET", "40 MELTON STREET EUSTON SQUARE  LONDON LONDON: CAMDEN", "NW1 2EE", "E05000142", "Regent's Park", "529570", "182590", "-0.133606", "51.527376", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "51.527376", "-0.133606", null, false ], "Defined by data provider", "2015-11-09T15:14:20", "186" ]
+, [ 282, "358CCB80-7842-4513-BD6F-64B191EABC24", 282, 1447082076, "1113", 1447082076, "1113", null, "EE", "13991", "ROYAL FREE HOSPITAL", "POND STREET, HAMPSTEAD, LONDON, 0207 794 0500,", "NW3 2QG", "E05000135", "Hampstead Town", "527281", "185337", "-0.165592", "51.552582", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "51.552582", "-0.165592", null, false ], "Defined by data provider", "2015-11-09T15:14:20", "88" ]
+, [ 283, "59BDA782-07B8-4AAE-99CF-D9203FA46B07", 283, 1447082076, "1113", 1447082076, "1113", null, "EE", "14950", "LP FROGNAL RISE 1", "FROGNAL RISE, HAMPSTEAD, LONDON, ,", "NW3 6SZ", "E05000133", "Frognal and Fitzjohns", "526167", "185996", "-0.181415", "51.558755", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "51.558755", "-0.181415", null, false ], "Defined by data provider", "2015-11-09T15:14:20", "107" ]
+, [ 284, "A1DCEFE4-B8CB-44D2-9686-674B76BDB2B0", 284, 1447082076, "1113", 1447082076, "1113", null, "CTIL", "136346", "Cornerstone 10365_Vodafone 771", "Snowman House", "NW3 6EX", "E05000140", "Kilburn", "525801", "183950", "-0.187423", "51.540449", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "51.540449", "-0.187423", null, false ], "Defined by data provider", "2015-11-09T15:14:20", "43" ]
+, [ 285, "B29AF262-EC38-4123-A07B-F20F5EA1FC99", 285, 1447082076, "1113", 1447082076, "1113", null, "CTIL", "146755", "WARREN STREET", "PRINCE OF WALES FEATHERS", "W1T 5LD", "E05000129", "Bloomsbury", "529235", "182240", "-0.138561", "51.524307", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "51.524307", "-0.138561", null, false ], "Defined by data provider", "2015-11-09T15:14:20", "21" ]
+, [ 286, "733672EE-F9F5-4BE3-AB2D-2389D31ABCFE", 286, 1447082076, "1113", 1447082076, "1113", null, "Three and EE", "90002", "EASTMAN DENTAL HOSPITAL", "Eastman Dental Hospital 256 Grays Inn Road  LONDON LONDON: CAMDEN", "WC1X 8LD", "E05000141", "King's Cross", "530750", "182500", "-0.116639", "51.526295", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "51.526295", "-0.116639", null, false ], "Defined by data provider", "2015-11-09T15:14:20", "172" ]
+, [ 287, "3A062BAB-EA24-4625-BB10-97F5C9CA4A14", 287, 1447082076, "1113", 1447082076, "1113", null, "CTIL", "138520", "MARRIOT HOTEL", "MARRIOT HOTEL MAIDA VALE", "NW8 0NJ", "E05000140", "Kilburn", "525628", "183416", "-0.190106", "51.535689", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "51.535689", "-0.190106", null, false ], "Defined by data provider", "2015-11-09T15:14:20", "28" ]
+, [ 288, "2FF0D98C-7452-407B-8433-7D86CDC3F419", 288, 1447082076, "1113", 1447082076, "1113", null, "CTIL", "138541", "WEST HAMPSTEAD", "MARRIOTT REGENTS PARK", "NW3 3ST", "E05000128", "Belsize", "527014", "184195", "-0.169853", "51.54238", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "51.54238", "-0.169853", null, false ], "Defined by data provider", "2015-11-09T15:14:20", "45" ]
+, [ 289, "CE5EB28A-F11E-49B9-88A8-652D5696D66F", 289, 1447082076, "1113", 1447082076, "1113", null, "Three", "25044", "THISTLE EUSTON 136819", "Thistle Euston, Cardington Street, London, London", "NW1 2LP", "E05000142", "Regent's Park", "529346", "182778", "-0.136765", "51.529116", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "51.529116", "-0.136765", null, false ], "Defined by data provider", "2015-11-09T15:14:20", "203" ]
+, [ 290, "9734A0DA-2AF8-4C40-B446-A16F99603318", 290, 1447082076, "1113", 1447082076, "1113", null, "Three and EE", "60823", "BT EXCHANGE MAIDA VALE", "BT EXCHANGE MAIDA VALE 138 Maida Vale  LONDON LONDON: CAMDEN", "W9 1QD", "E05000140", "Kilburn", "525704", "183367", "-0.189029", "51.535231", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "51.535231", "-0.189029", null, false ], "Defined by data provider", "2015-11-09T15:14:20", "170" ]
+, [ 291, "64A9F94B-BDB9-4E63-8A88-FA77D4AC4877", 291, 1447082076, "1113", 1447082076, "1113", null, "CTIL", "136017", "SWINTON STREET", "BATTLEBRIDGE HOUSE", "WC1X 8DU", "E05000141", "King's Cross", "530609", "182690", "-0.1186", "51.528035", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "51.528035", "-0.1186", null, false ], "Defined by data provider", "2015-11-09T15:14:20", "4" ]
+, [ 292, "978C7E83-BED4-417F-9189-3C179BD5B5A8", 292, 1447082076, "1113", 1447082076, "1113", null, "Three and EE", "90024", "SYDNEY BOYD COURT", "Sydney Boyd Court (Liebert/Hiross) West End Lane  LONDON LONDON: CAMDEN", "NW6 4QY", "E05000144", "Swiss Cottage", "525425", "184170", "-0.192763", "51.54251", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "51.54251", "-0.192763", null, false ], "Defined by data provider", "2015-11-09T15:14:20", "174" ]
+, [ 293, "90028025-6196-48B3-9F41-3A113A7F3580", 293, 1447082076, "1113", 1447082076, "1113", null, "CTIL", "136719", "Architects House", "Architects House", "NW1 0XH", "E05000129", "Bloomsbury", "529588", "181814", "-0.133632", "51.520398", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "51.520398", "-0.133632", null, false ], "Defined by data provider", "2015-11-09T15:14:20", "69" ]
+, [ 294, "6183E3CF-0E8A-48E3-928B-1F97A98924D9", 294, 1447082076, "1113", 1447082076, "1113", null, "EE and Three", "98337", "CENTRE HEIGHTS", "CENTRE HEIGHTS 137 Finchley Road Swiss Cottage LONDON LONDON: CAMDEN", "NW3 6HY", "E05000144", "Swiss Cottage", "526612", "184362", "-0.175587", "51.543971", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "51.543971", "-0.175587", null, false ], "Defined by data provider", "2015-11-09T15:14:20", "145" ]
+, [ 295, "EEA86620-BDF7-41BA-ADF3-6E5D427719DB", 295, 1447082076, "1113", 1447082076, "1113", null, "CTIL", "147284", "PRIMROSE HILL", "PRIMROSE HILL RAILWAY STATION", "NW1 8AW", "E05000130", "Camden Town with Primrose Hill", "528012", "183996", "-0.155542", "51.540366", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "51.540366", "-0.155542", null, false ], "Defined by data provider", "2015-11-09T15:14:20", "54" ]
+, [ 296, "286E7FEF-937E-45EC-9545-A6925ADC047B", 296, 1447082076, "1113", 1447082076, "1113", null, "EE", "14606", "BIKEFIX", "48 LAMB'S CONDUIT STREET, LONDON, , ,", "WC1N 3LH", "E05000138", "Holborn and Covent Garden", "530633", "181977", "-0.118519", "51.521622", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "51.521622", "-0.118519", null, false ], "Defined by data provider", "2015-11-09T15:14:20", "98" ]
+, [ 297, "59D4B317-23A3-4429-AE87-75F3D507B92D", 297, 1447082076, "1113", 1447082076, "1113", null, "Three and EE", "27469", "WC0004 - HYG & TROPICAL MED WC0004 92155", "Hygiene & Tropical Medicine, 1 Keppel Street, London, London", "WC1E 7HT", "E05000129", "Bloomsbury", "529849", "181871", "-0.129851", "51.52085", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "51.52085", "-0.129851", null, false ], "Defined by data provider", "2015-11-09T15:14:20", "202" ]
+, [ 298, "691211BC-D53A-4315-8319-15488868FA2A", 298, 1447082076, "1113", 1447082076, "1113", null, "CTIL", "135973", "Cornerstone 10169_Vodafone 726", "BT Tower Macro", "W1T 4BL", "E05000129", "Bloomsbury", "529182", "181948", "-0.139431", "51.521695", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "51.521695", "-0.139431", null, false ], "Defined by data provider", "2015-11-09T15:14:20", "22" ]
+, [ 299, "05B648CE-244D-44B1-8227-48A999A2B433", 299, 1447082076, "1113", 1447082076, "1113", null, "EE", "14600", "35 GOODGE ST", "35 GOODGE STREET, LONDON, , ,", "WC1E 7DW", "E05000129", "Bloomsbury", "529476", "181698", "-0.135288", "51.519381", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "51.519381", "-0.135288", null, false ], "Defined by data provider", "2015-11-09T15:14:20", "97" ]
+, [ 300, "B2A33CE4-7774-4DCE-8A31-FD123EAE4A85", 300, 1447082076, "1113", 1447082076, "1113", null, "CTIL", "144328", "CAMDEN LOCK", "GREATER LONDON HOUSE", "NW1 7QX", "E05000142", "Regent's Park", "529147", "183271", "-0.139451", "51.533592", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "51.533592", "-0.139451", null, false ], "Defined by data provider", "2015-11-09T15:14:20", "55" ]
+, [ 301, "0A5EBBD2-8627-4FAA-996D-E4EF7EA62046", 301, 1447082076, "1113", 1447082076, "1113", null, "EE", "14768", "53 HEATH STREET", "BENHAM & REEVES RESIDENTIAL, LETTING, 51-53 HEATH STREET,, HAMPSTEAD, LONDON, ,", "NW3 6UG", "E05000135", "Hampstead Town", "526370", "185790", "-0.178562", "51.556858", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "51.556858", "-0.178562", null, false ], "Defined by data provider", "2015-11-09T15:14:20", "103" ]
+, [ 302, "46D54E65-A073-4220-873A-58C6465BB1C7", 302, 1447082076, "1113", 1447082076, "1113", null, "CTIL", "147657", "RICOH (TRITON STREET).", "RICOH (TRITON STREET).", "NW1 3BF", "E05000142", "Regent's Park", "528959", "182316", "-0.142509", "51.525053", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "51.525053", "-0.142509", null, false ], "Defined by data provider", "2015-11-09T15:14:20", "60" ]
+, [ 303, "CA317F5E-7960-4DFC-AA19-9AA1805E3F3D", 303, 1447082076, "1113", 1447082076, "1113", null, "CTIL", "146288", "Logica York Way", "7th Floor", "N1 9AG", "E05000143", "St Pancras and Somers Town", "530250", "183250", "-0.123566", "51.53315", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "51.53315", "-0.123566", null, false ], "Defined by data provider", "2015-11-09T15:14:20", "78" ]
+, [ 304, "69915A1F-3091-484D-ADE1-67BF2113284D", 304, 1447082076, "1113", 1447082076, "1113", null, "EE and Three", "25038", "NW0041 - ANGLO-SCOTTISH 114065", "Anglo-Scottish, 100A Chalk Farm Road, Chalk Farm, Camden, London", "NW1 8AN", "E05000130", "Camden Town with Primrose Hill", "528324", "184326", "-0.150926", "51.543261", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "51.543261", "-0.150926", null, false ], "Defined by data provider", "2015-11-09T15:14:20", "156" ]
+, [ 305, "0DDAF863-1030-4020-B86D-04F16CE0A12D", 305, 1447082076, "1113", 1447082076, "1113", null, "CTIL", "144329", "SWISS COTTAGE", "CENTRE HEIGHTS", "NW3 6JG", "E05000144", "Swiss Cottage", "526595", "184328", "-0.175844", "51.543669", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "51.543669", "-0.175844", null, false ], "Defined by data provider", "2015-11-09T15:14:20", "42" ]
+, [ 306, "A5987C47-6978-4F7E-99D0-7A7EB37DEB7A", 306, 1447082076, "1113", 1447082076, "1113", null, "Three and EE", "25062", "NW0074 - CENTENARY HOUSE 207780", "Centenary House, 96-98 Camden High Street, Camden, London", "NW1 7JY", "E05000142", "Regent's Park", "529085", "183690", "-0.140191", "51.537372", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "51.537372", "-0.140191", null, false ], "Defined by data provider", "2015-11-09T15:14:20", "201" ]
+, [ 307, "1AD1DEDC-2216-4E31-8305-2D818ED5876D", 307, 1447082076, "1113", 1447082076, "1113", null, "CTIL", "135951", "@@LO Addison & Lee", "35-37 William road", "NW1 3ER", "E05000142", "Regent's Park", "529280", "182440", "-0.137839", "51.526094", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "51.526094", "-0.137839", null, false ], "Defined by data provider", "2015-11-09T15:14:20", "59" ]
+, [ 308, "FA7D69D5-B6E4-4C3F-8F43-F505A1451723", 308, 1447082076, "1113", 1447082076, "1113", null, "CTIL", "137048", "Hendon Way", "Hendon Way", "NW2 2PD", null, null, "525041", "186016", "-0.197642", "51.559185", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "51.559185", "-0.197642", null, false ], "Defined by data provider", "2015-11-09T15:14:20", "51" ]
+, [ 309, "02C27CE4-3B72-485A-A317-8524A222A642", 309, 1447082076, "1113", 1447082076, "1113", null, "CTIL", "141463", "The National Institute of Neur", "Guildford Street", "WC1N 3BG", "E05000138", "Holborn and Covent Garden", "530362", "182095", "-0.122379", "51.522745", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "51.522745", "-0.122379", null, false ], "Defined by data provider", "2015-11-09T15:14:20", "10" ]
+, [ 310, "8D909B0D-016A-4240-9D57-BC2B2B14A9A5", 310, 1447082076, "1113", 1447082076, "1113", null, "EE", "32033", "Canterbury Mansions", "LYMINGTON ROAD,WEST HAMPSTREAD,LONDON NW6 KILBURN,LONDON: CAMDEN,", "NW6 1SE", "E05000145", "West Hampstead", "525546", "184920", "-0.190752", "51.549223", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "51.549223", "-0.190752", null, false ], "Defined by data provider", "2015-11-09T15:14:20", "114" ]
+, [ 311, "18CD5FF1-144D-4436-B99A-61D1730BC6B0", 311, 1447082076, "1113", 1447082076, "1113", null, "CTIL", "143514", "LONDON-VT/384-SITE959-TBC", "ALBANY RD STREET WORKS", "NW1 4HR", "E05000142", "Regent's Park", "529000", "182800", "-0.141742", "51.529393", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "51.529393", "-0.141742", null, false ], "Defined by data provider", "2015-11-09T15:14:20", "58" ]
+, [ 312, "CA9D69F4-E519-4E0D-8715-8E71D5EF9C0A", 312, 1447082076, "1113", 1447082076, "1113", null, "Three and EE", "98466", "INTERNATIONAL HALL", "UNIVERSITY OF LONDON HALLS OF RESIDENCE,BRUNSWICK SQUARE  LONDON LONDON: CAMDEN", "WC1N 1AX", "E05000141", "King's Cross", "530382", "182194", "-0.122054", "51.52363", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "51.52363", "-0.122054", null, false ], "Defined by data provider", "2015-11-09T15:14:20", "192" ]
+, [ 313, "A3D3F9B2-891E-4282-B7FE-F2D6EA7DC0D4", 313, 1447082076, "1113", 1447082076, "1113", null, "EE and Three", "51138", "ST MARYS WITH ALL SAINTS CHURCH", "ST MARYS PRIORY ROAD KILBURN LONDON LONDON", "NW6 4JJ", "E05000144", "Swiss Cottage", "525652", "184023", "-0.189544", "51.541138", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "51.541138", "-0.189544", null, false ], "Defined by data provider", "2015-11-09T15:14:20", "122" ]
+, [ 314, "760B3939-A6F2-419B-8C1C-FADB3530A957", 314, 1447082076, "1113", 1447082076, "1113", null, "EE", "28297", "WS ATKINS EUSTON IN BUILDING", "EUSTON TOWER, 285 EUSTON ROAD, LONDON, ,", "NW1 3AT", "E05000142", "Regent's Park", "529188", "182357", "-0.139195", "51.525369", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "51.525369", "-0.139195", null, false ], "Defined by data provider", "2015-11-09T15:14:20", "112" ]
+, [ 315, "F556E53B-8365-4BBF-9712-047371CBEB16", 315, 1447082076, "1113", 1447082076, "1113", null, "CTIL", "136166", "Cornerstone 10344_Vodafone 787", "Castlehaven Road", "NW1 8PL", "E05000130", "Camden Town with Primrose Hill", "528820", "184520", "-0.143706", "51.544891", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "51.544891", "-0.143706", null, false ], "Defined by data provider", "2015-11-09T15:14:20", "53" ]
+, [ 316, "866F2E1A-97F4-40D3-B1B7-4489112FB8B1", 316, 1447082076, "1113", 1447082076, "1113", null, "Three and EE", "90001", "124 THEOBALDS - MERCURY HOUSE", "124 THEOBALDS ROAD (A/C) 110-124 THEOBALDS ROAD   LONDON WC1 BLOOMSBURY LONDON: CAMDEN", "WC1X 8RX", "E05000138", "Holborn and Covent Garden", "530540", "181790", "-0.119928", "51.519963", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "51.519963", "-0.119928", null, false ], "Defined by data provider", "2015-11-09T15:14:20", "171" ]
+, [ 317, "28F0CA1F-0613-4A7E-AABF-1462CBD3146E", 317, 1447082076, "1113", 1447082076, "1113", null, "Three and EE", "98465", "BT SPEC HARRISON STREET TE", "BT SPEC HARRISON STREET TE Harrison Street  LONDON LONDON: CAMDEN", "WC1V 7EJ", "E05000141", "King's Cross", "530470", "182620", "-0.120629", "51.527438", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "51.527438", "-0.120629", null, false ], "Defined by data provider", "2015-11-09T15:14:20", "191" ]
+, [ 318, "DDADB7D0-F58B-4925-A924-3C2BB030E1FA", 318, 1447082076, "1113", 1447082076, "1113", null, "EE", "90025", "DORNAY (HIRROS)", "Dornay Adelaide Road  LONDON LONDON: CAMDEN", "NW3 3PL", "E05000128", "Belsize", "527373", "184390", "-0.164609", "51.544051", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "51.544051", "-0.164609", null, false ], "Defined by data provider", "2015-11-09T15:14:20", "151" ]
+, [ 319, "AA98D7DE-C9DF-4645-962A-4581913D0620", 319, 1447082076, "1113", 1447082076, "1113", null, "EE and Three", "50060", "EUSTON TRAVEL INN", "EUSTON TRAVEL INN 141 EUSTON ROAD  LONDON LONDON: CAMDEN", "NW1 2AL", "E05000141", "King's Cross", "529900", "182650", "-0.12883", "51.527839", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "51.527839", "-0.12883", null, false ], "Defined by data provider", "2015-11-09T15:14:20", "117" ]
+, [ 320, "ADCDC496-F120-4C60-82DE-E2FFDE68510D", 320, 1447082076, "1113", 1447082076, "1113", null, "Three and EE", "25027", "NW0027 - THE SPANIARDS INN 205927", "The Spaniards Inn, Spaniards Road, Hampstead Heath, London", "NW3 7JJ", "E05000135", "Hampstead Town", "526612", "187163", "-0.174579", "51.569143", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "51.569143", "-0.174579", null, false ], "Defined by data provider", "2015-11-09T15:14:20", "197" ]
+, [ 321, "C0EDE024-1C78-40C6-B9D4-455BDB7D357B", 321, 1447082076, "1113", 1447082076, "1113", null, "CTIL", "136563", "The British Library", "96 Euston Road", "NW1 2DB", "E05000143", "St Pancras and Somers Town", "529790", "183039", "-0.130271", "51.53136", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "51.53136", "-0.130271", null, false ], "Defined by data provider", "2015-11-09T15:14:20", "64" ]
+, [ 322, "472598BB-9C0C-446F-AEC4-14FF162429E0", 322, 1447082076, "1113", 1447082076, "1113", null, "Three and EE", "90562", "HAMPSTEAD COMFORT INN", "HAMPSTEAD COMFORT INN 5-7 Frognal Hampstead LONDON LONDON: CAMDEN", "NW3 6AL", "E05000133", "Frognal and Fitzjohns", "526234", "185003", "-0.180805", "51.549816", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "51.549816", "-0.180805", null, false ], "Defined by data provider", "2015-11-09T15:14:20", "179" ]
+, [ 323, "EAB0C3FB-B012-49CA-9F5C-A45F9D0CBFE6", 323, 1447082076, "1113", 1447082076, "1113", null, "EE", "28262", "HOLBORN TOWER", "HOLBORN TOWER, 137 HIGH HOLBORN, LONDON, ,", "WC1V 6PW", "E05000138", "Holborn and Covent Garden", "530345", "181505", "-0.122842", "51.517447", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "51.517447", "-0.122842", null, false ], "Defined by data provider", "2015-11-09T15:14:20", "91" ]
+, [ 324, "B61474BB-21C3-463A-A40B-A0C53DE67882", 324, 1447082076, "1113", 1447082076, "1113", null, "CTIL", "140688", "Kings Cross Station ( Upgrade", "Euston Road", "N1 9AP", "E05000143", "St Pancras and Somers Town", "530270", "183100", "-0.123333", "51.531798", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "51.531798", "-0.123333", null, false ], "Defined by data provider", "2015-11-09T15:14:20", "77" ]
+, [ 325, "38F3542B-17C1-4FC6-BB71-A61F1606B75C", 325, 1447082076, "1113", 1447082076, "1113", null, "Three and EE", "24475", "N0043 - ABC SELF STORAGE 187561", "ABC Self Storage, 145-147 York Way, Camden, London", "N7 9LG", "E05000131", "Cantelowes", "529917", "184868", "-0.127767", "51.547767", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "51.547767", "-0.127767", null, false ], "Defined by data provider", "2015-11-09T15:14:20", "196" ]
+, [ 326, "D7C47F46-487C-473B-B743-47911672D7DA", 326, 1447082076, "1113", 1447082076, "1113", null, "CTIL", "136044", "@@ZLA @@MX East Heath", "B519", "NW3 7ET", "E05000135", "Hampstead Town", "526280", "186280", "-0.179684", "51.561282", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "51.561282", "-0.179684", null, false ], "Defined by data provider", "2015-11-09T15:14:20", "39" ]
+, [ 327, "E26C2177-C7D8-4490-9CA7-0C4D36707134", 327, 1447082076, "1113", 1447082076, "1113", null, "Three and EE", "90444", "ENGLEFIELD", "Regents Park Estate Stanhope Street  LONDON LONDON: CAMDEN", "NW1 3QB", "E05000142", "Regent's Park", "529050", "182650", "-0.141076", "51.528034", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "51.528034", "-0.141076", null, false ], "Defined by data provider", "2015-11-09T15:14:20", "178" ]
+, [ 328, "93D09F87-104F-4A7F-9765-82C60622B422", 328, 1447082076, "1113", 1447082076, "1113", null, "Three and EE", "98336", "SPANIARDS ROAD DNS", "HAMPSTEAD HEATH SPANIARDS ROAD HAMPSTEAD LONDON LONDON: CAMDEN", "NW3 7ET", "E05000135", "Hampstead Town", "526393", "186680", "-0.177911", "51.564851", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "51.564851", "-0.177911", null, false ], "Defined by data provider", "2015-11-09T15:14:20", "189" ]
+, [ 329, "966709D6-2969-4DF2-BA9F-6E96F7763D7E", 329, 1447082076, "1113", 1447082076, "1113", null, "CTIL", "136220", "@@MX Euston ATE", "165 Euston Road", "NW1 1DH", "E05000129", "Bloomsbury", "529747", "182564", "-0.131066", "51.527101", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "51.527101", "-0.131066", null, false ], "Defined by data provider", "2015-11-09T15:14:20", "68" ]
+, [ 330, "08575E1F-BE55-4069-B7E9-5F9EC1C2062F", 330, 1447082076, "1113", 1447082076, "1113", null, "EE", "14052", "125 SHAFTESBURY AVENUE", "125 SHAFTESBURY AVENUE, 125 SHAFTESBURY AVENUE, LONDON, ,", "WC2H 0DU", "E05000138", "Holborn and Covent Garden", "529957", "181112", "-0.128575", "51.514004", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "51.514004", "-0.128575", null, false ], "Defined by data provider", "2015-11-09T15:14:20", "90" ]
+, [ 331, "DCE148A1-5693-413C-83AE-A8B07883C646", 331, 1447082076, "1113", 1447082076, "1113", null, "CTIL", "142320", "Tree Co Ltd", "4th Floor, Holborn Gate", "EC1N 2NS", null, null, "531084", "181584", "-0.112168", "51.517986", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "51.517986", "-0.112168", null, false ], "Defined by data provider", "2015-11-09T15:14:20", "81" ]
+, [ 332, "F7F52DB5-6223-4107-A7E2-3E529949BC78", 332, 1447082076, "1113", 1447082076, "1113", null, "EE and Three", "60823", "BT EXCHANGE MAIDA VALE", "BT EXCHANGE MAIDA VALE 138 Maida Vale  LONDON LONDON: CAMDEN", "W9 1QD", "E05000140", "Kilburn", "525704", "183367", "-0.189029", "51.535231", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "51.535231", "-0.189029", null, false ], "Defined by data provider", "2015-11-09T15:14:20", "125" ]
+, [ 333, "5CD84B48-B3E3-41DD-A02E-8DB08C4EB48D", 333, 1447082076, "1113", 1447082076, "1113", null, "CTIL", "141480", "ABC Self Storage`", "ABC Self Storage", "N7 9LH", "E05000131", "Cantelowes", "529930", "184870", "-0.127579", "51.547782", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "51.547782", "-0.127579", null, false ], "Defined by data provider", "2015-11-09T15:14:20", "73" ]
+, [ 334, "6658B833-F59B-40C8-9883-05ADB215C399", 334, 1447082076, "1113", 1447082076, "1113", null, "EE", "14949", "40 GREAT RUSSELL STREET", "40 GREAT RUSSELL STREET, LONDON, , ,", "WC1B 3PH", "E05000138", "Holborn and Covent Garden", "530060", "181540", "-0.126934", "51.517827", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "51.517827", "-0.126934", null, false ], "Defined by data provider", "2015-11-09T15:14:20", "106" ]
+, [ 335, "23A6CE6B-818F-4E21-B4E6-C05C39FCD1E0", 335, 1447082076, "1113", 1447082076, "1113", null, "EE and Three", "98119", "IMPERIAL HOTEL", "Imperial Hotel Russell Square  LONDON LONDON: CAMDEN", "WC1B 5BB", "E05000138", "Holborn and Covent Garden", "530270", "182015", "-0.123734", "51.522047", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "51.522047", "-0.123734", null, false ], "Defined by data provider", "2015-11-09T15:14:20", "137" ]
+, [ 336, "36F69F84-D539-4629-BAC8-CE7BC94FD099", 336, 1447082076, "1113", 1447082076, "1113", null, "EE", "14955", "LP BRANCH HILL", "BRANCH HILL, HAMPSTEAD, LONDON, ,", "NW3 7NF", "E05000133", "Frognal and Fitzjohns", "526010", "186255", "-0.183586", "51.561117", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "51.561117", "-0.183586", null, false ], "Defined by data provider", "2015-11-09T15:14:20", "108" ]
+, [ 337, "60C3C73B-ED81-41A7-9FA8-F5CAD649E002", 337, 1447082076, "1113", 1447082076, "1113", null, "CTIL", "140637", "Castlewood House", "77-91 New Oxford Street", "WC1A 1BL", "E05000138", "Holborn and Covent Garden", "529977", "181400", "-0.128181", "51.516588", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "51.516588", "-0.128181", null, false ], "Defined by data provider", "2015-11-09T15:14:20", "17" ]
+, [ 338, "94E03F99-D4B3-4586-A263-0EDD9B12D7E7", 338, 1447082076, "1113", 1447082076, "1113", null, "CTIL", "143464", "ISLINGTON", "FORMER PRESBYTERIAN CHURCH", "NW1 9AY", "E05000131", "Cantelowes", "529816", "184780", "-0.129255", "51.547", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "51.547", "-0.129255", null, false ], "Defined by data provider", "2015-11-09T15:14:20", "52" ]
+, [ 339, "030BA489-A13D-4625-AEC5-7070893E44CE", 339, 1447082076, "1113", 1447082076, "1113", null, "CTIL", "137729", "WEST HAMPSTEAD", "IVERSON ROAD STREETWORKS", "NW6 2HL", "E05000145", "West Hampstead", "525428", "184793", "-0.192498", "51.548108", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "51.548108", "-0.192498", null, false ], "Defined by data provider", "2015-11-09T15:14:20", "32" ]
+, [ 340, "E13F22E5-691C-4D2C-BCD6-CF2C0A5EBFAC", 340, 1447082076, "1113", 1447082076, "1113", null, "EE", "14423", "KINGS ARMS", "KINGS ARMS, 11A NORTHINGTON STREET, LONDON, ,", "WC1N 2JF", "E05000138", "Holborn and Covent Garden", "530872", "182032", "-0.115055", "51.522061", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "51.522061", "-0.115055", null, false ], "Defined by data provider", "2015-11-09T15:14:20", "94" ]
+, [ 341, "61E670BC-12E1-4BBC-98FB-7D832E477959", 341, 1447082076, "1113", 1447082076, "1113", null, "CTIL", "144030", "BELSIZE PARK", "ROYAL FREE HOSPITAL NORTH WESTERN BLOCK", "NW3 2QG", "E05000135", "Hampstead Town", "527254", "185444", "-0.165943", "51.55355", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "51.55355", "-0.165943", null, false ], "Defined by data provider", "2015-11-09T15:14:20", "47" ]
+, [ 342, "ECB8C171-C275-4FFB-8359-0DFCD87FC716", 342, 1447082076, "1113", 1447082076, "1113", null, "EE and Three", "50172", "PORTLAND COURT", "PORTLAND LODGE 37-38 BELSIZE PARK HAMPSTEAD LONDON GREATER LONDON", "NW3 4ED", "E05000133", "Frognal and Fitzjohns", "526775", "184714", "-0.173111", "51.547097", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "51.547097", "-0.173111", null, false ], "Defined by data provider", "2015-11-09T15:14:20", "118" ]
+, [ 343, "0E40E489-15D7-4482-B830-27350318FB8C", 343, 1447082076, "1113", 1447082076, "1113", null, "CTIL", "136110", "Cornerstone 10339_Vodafone 787", "Langthorne Court", "NW8 6NJ", "E05000144", "Swiss Cottage", "526580", "184020", "-0.176171", "51.540904", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "51.540904", "-0.176171", null, false ], "Defined by data provider", "2015-11-09T15:14:20", "27" ]
+, [ 344, "EC7A859F-D2DB-404D-8E0E-956C198BCC64", 344, 1447082076, "1113", 1447082076, "1113", null, "CTIL", "144327", "MORNINGTON CRESCENT", "PULLMAN LONDON ST PANCRAS", "NW1 2AJ", "E05000143", "St Pancras and Somers Town", "529961", "182747", "-0.127915", "51.528697", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "51.528697", "-0.127915", null, false ], "Defined by data provider", "2015-11-09T15:14:20", "65" ]
+, [ 345, "5AB86807-BB18-450E-9947-86B1B36042F9", 345, 1447082076, "1113", 1447082076, "1113", null, "EE and Three", "24475", "N0043 - ABC SELF STORAGE 187561", "ABC Self Storage, 145-147 York Way, Camden, London", "N7 9LG", "E05000131", "Cantelowes", "529917", "184868", "-0.127767", "51.547767", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "51.547767", "-0.127767", null, false ], "Defined by data provider", "2015-11-09T15:14:20", "152" ]
+, [ 346, "4235FCC4-38FC-400A-8EC9-E2CDB828182F", 346, 1447082076, "1113", 1447082076, "1113", null, "EE and Three", "98116", "CASTLEWOOD HOUSE", "Castlewood House 77-91 New Oxford Street  LONDON LONDON: CAMDEN", "WC1A 1DT", "E05000138", "Holborn and Covent Garden", "529960", "181405", "-0.128424", "51.516637", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "51.516637", "-0.128424", null, false ], "Defined by data provider", "2015-11-09T15:14:20", "135" ]
+, [ 347, "D6BCBD21-C14C-4056-8FBD-2DD2A457A5D4", 347, 1447082076, "1113", 1447082076, "1113", null, "CTIL", "141371", "CAMDEN HIGH STREET", "A & K WAREHOUSE", "NW1 0NE", "E05000130", "Camden Town with Primrose Hill", "528926", "183807", "-0.142439", "51.53846", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "51.53846", "-0.142439", null, false ], "Defined by data provider", "2015-11-09T15:14:20", "71" ]
+, [ 348, "61CC0A82-2C7D-4A3F-BEB5-3A4D0C7E8DBF", 348, 1447082076, "1113", 1447082076, "1113", null, "CTIL", "142412", "90 TOTTENHAM COURT ROAD.", "90 TOTTENHAM COURT ROAD", "W1T 7HA", "E05000129", "Bloomsbury", "529390", "181975", "-0.136425", "51.52189", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "51.52189", "-0.136425", null, false ], "Defined by data provider", "2015-11-09T15:14:20", "20" ]
+, [ 349, "1E42A6C7-1C47-42A1-82D8-E31896DA40CC", 349, 1447082076, "1113", 1447082076, "1113", null, "CTIL", "144766", "DARTMOUTH PARK", "DARTMOUTH PARK", "N6 6PH", "E05000137", "Highgate", "528430", "187300", "-0.148313", "51.569963", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "51.569963", "-0.148313", null, false ], "Defined by data provider", "2015-11-09T15:14:20", "75" ]
+, [ 350, "9AD014C0-7E25-47ED-BCDE-5A33FBDC7BD2", 350, 1447082076, "1113", 1447082076, "1113", null, "EE and Three", "98163", "HOLBORN HALL", "Holborn Hall 100 Grays Inn Road  LONDON LONDON: CAMDEN", "WC1X 8AL", "E05000138", "Holborn and Covent Garden", "531023", "181950", "-0.112911", "51.521289", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "51.521289", "-0.112911", null, false ], "Defined by data provider", "2015-11-09T15:14:20", "142" ]
+, [ 351, "A3747CF4-342E-4E72-A767-0D8ABE407E1E", 351, 1447082076, "1113", 1447082076, "1113", null, "CTIL", "136127", "Street Furniture", "107E Bartholomew Road", "NW5 2AU", "E05000131", "Cantelowes", "529414", "184827", "-0.135032", "51.547514", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "51.547514", "-0.135032", null, false ], "Defined by data provider", "2015-11-09T15:14:20", "37" ]
+, [ 352, "3443AE5F-C133-41CD-99B7-837745817EAB", 352, 1447082076, "1113", 1447082076, "1113", null, "Three and EE", "90033", "ST PANCRAS HOSPITAL", "St Pancras Hospital 4 St Pancras Way  LONDON LONDON: CAMDEN", "NW1 0PE", "E05000143", "St Pancras and Somers Town", "529665", "183495", "-0.131905", "51.535487", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "51.535487", "-0.131905", null, false ], "Defined by data provider", "2015-11-09T15:14:20", "176" ]
+, [ 353, "24739DBA-8DB1-4670-80B0-D73D6EF29F02", 353, 1447082076, "1113", 1447082076, "1113", null, "CTIL", "141802", "Disused Tunnel", "Network Rail Land off Gloucester Road", "NW1 7BH", "E05000130", "Camden Town with Primrose Hill", "528585", "183725", "-0.147383", "51.5378", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "51.5378", "-0.147383", null, false ], "Defined by data provider", "2015-11-09T15:14:20", "57" ]
+, [ 354, "7ADD8222-52DF-4D30-9A37-045D39EFFCAF", 354, 1447082076, "1113", 1447082076, "1113", null, "CTIL", "140634", "@@LO Portland/ Cavendish", "30-32 Fitzroy Street", "WC1E 6JP", "E05000129", "Bloomsbury", "529270", "182100", "-0.138108", "51.523041", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "51.523041", "-0.138108", null, false ], "Defined by data provider", "2015-11-09T15:14:20", "14" ]
+, [ 355, "9F6FB47F-406F-4919-953B-849EFAC930FA", 355, 1447082076, "1113", 1447082076, "1113", null, "EE and Three", "90444", "ENGLEFIELD", "Regents Park Estate Stanhope Street  LONDON LONDON: CAMDEN", "NW1 3QB", "E05000142", "Regent's Park", "529050", "182650", "-0.141076", "51.528034", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "51.528034", "-0.141076", null, false ], "Defined by data provider", "2015-11-09T15:14:20", "133" ]
+, [ 356, "8765EB44-3228-4688-BF82-BADB20F9019D", 356, 1447082076, "1113", 1447082076, "1113", null, "CTIL", "147410", "DENMARK STREET", "NOW BAR", "WC2H 8LP", "E05000138", "Holborn and Covent Garden", "529905", "181258", "-0.129271", "51.515328", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "51.515328", "-0.129271", null, false ], "Defined by data provider", "2015-11-09T15:14:14", "1" ]
+, [ 357, "B3A341C4-7565-4248-BC28-70F6D2765437", 357, 1447082076, "1113", 1447082076, "1113", null, "EE and Three", "25062", "NW0074 - CENTENARY HOUSE 207780", "Centenary House, 96-98 Camden High Street, Camden, London", "NW1 7JY", "E05000142", "Regent's Park", "529085", "183690", "-0.140191", "51.537372", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "51.537372", "-0.140191", null, false ], "Defined by data provider", "2015-11-09T15:14:20", "157" ]
+, [ 358, "A62E761E-858D-43C8-9BC6-1566E2B8E419", 358, 1447082076, "1113", 1447082076, "1113", null, "Three and EE", "98528", "GREATER LONDON HOUSE", "RESOLUTION PROPERTY GLH GREATER LONDON HOUSE,HAMPSTEAD ROAD  LONDON LONDON: CAMDEN", "NW1 7TZ", "E05000142", "Regent's Park", "529115", "183320", "-0.139894", "51.53404", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "51.53404", "-0.139894", null, false ], "Defined by data provider", "2015-11-09T15:14:20", "195" ]
+, [ 359, "DE7CF665-DF5D-4F80-9DBF-8EDD30298F51", 359, 1447082076, "1113", 1447082076, "1113", null, "Three and EE", "25038", "NW0041 - ANGLO-SCOTTISH 114065", "Anglo-Scottish, 100A Chalk Farm Road, Chalk Farm, Camden, London", "NW1 8AN", "E05000130", "Camden Town with Primrose Hill", "528324", "184326", "-0.150926", "51.543261", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "51.543261", "-0.150926", null, false ], "Defined by data provider", "2015-11-09T15:14:20", "200" ]
+, [ 360, "15F8CC36-C7C4-42D0-AB3D-6C09C7BFF20C", 360, 1447082076, "1113", 1447082076, "1113", null, "CTIL", "147566", "VRS KILBURN", "VRS KILBURN", "NW6 4JD", "E05000140", "Kilburn", "525187", "183969", "-0.196265", "51.540756", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "51.540756", "-0.196265", null, false ], "Defined by data provider", "2015-11-09T15:14:20", "29" ]
+, [ 361, "432DF68B-FDBA-42A9-88FD-93F1EFD7EE9E", 361, 1447082076, "1113", 1447082076, "1113", null, "Three and EE", "90003", "ROYAL NATIONAL HOTEL", "Royal National Hotel Bedford Way  LONDON LONDON: CAMDEN", "WC1H 0DG", "E05000129", "Bloomsbury", "529960", "182219", "-0.128124", "51.523952", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "51.523952", "-0.128124", null, false ], "Defined by data provider", "2015-11-09T15:14:20", "173" ]
+, [ 362, "83BD2CF7-135F-4B6B-97C6-15A2C2F4D08F", 362, 1447082076, "1113", 1447082076, "1113", null, "Three and EE", "98117", "TORRINGTON PLACE", "1-19 TORRINGTON PLACE TOTTENHAM COURT ROAD  LONDON LONDON: CAMDEN", "WC1E 7HB", "E05000129", "Bloomsbury", "529515", "181988", "-0.13462", "51.521978", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "51.521978", "-0.13462", null, false ], "Defined by data provider", "2015-11-09T15:14:20", "181" ]
+, [ 363, "EEACD6A9-652E-4F25-945D-A0DC83D1988B", 363, 1447082076, "1113", 1447082076, "1113", null, "EE", "14450", "YORK WAY", "HIGHWAYS LAND ON YORK WAY, A5200,, KINGS CROSS, LONDON,", "N1 OBE", "E05000143", "St Pancras and Somers Town", "530118", "184082", "-0.12516", "51.540658", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "51.540658", "-0.12516", null, false ], "Defined by data provider", "2015-11-09T15:14:20", "95" ]
+, [ 364, "633485AB-7FB8-4E11-B12F-5B77C3D2843A", 364, 1447082076, "1113", 1447082076, "1113", null, "Three and EE", "32033", "CANTERBURY MANSIONS", "CANTERBURY MANSIONS LYMINGTON ROAD WEST HAMPSTREAD", "NW6 1SE", "E05000145", "West Hampstead", "525546", "184920", "-0.190752", "51.549223", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "51.549223", "-0.190752", null, false ], "Defined by data provider", "2015-11-09T15:14:20", "159" ]
+, [ 365, "7CFEF609-1203-429F-9B4C-325440631874", 365, 1447082076, "1113", 1447082076, "1113", null, "CTIL", "141962", "OXFORD STREET", "VODAFONE RETAIL STORE", "W1C 2HN", "E05000138", "Holborn and Covent Garden", "530250", "181250", "-0.124304", "51.515177", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "51.515177", "-0.124304", null, false ], "Defined by data provider", "2015-11-09T15:14:20", "25" ]
+, [ 366, "20133508-9010-4B97-B0D5-404CC1BD9FDB", 366, 1447082076, "1113", 1447082076, "1113", null, "Three and EE", "50172", "PORTLAND COURT", "PORTLAND LODGE 37-38 BELSIZE PARK HAMPSTEAD LONDON GREATER LONDON", "NW3 4ED", "E05000133", "Frognal and Fitzjohns", "526775", "184714", "-0.173111", "51.547097", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "51.547097", "-0.173111", null, false ], "Defined by data provider", "2015-11-09T15:14:20", "163" ]
+, [ 367, "AEEADBDE-668B-4BE6-BB10-0E2D5CE9C85B", 367, 1447082076, "1113", 1447082076, "1113", null, "EE", "14812", "SPANIARDS ROAD", "HEATH STREET, HAMPSTEAD, LONDON, ,", "NW3 1PL", "E05000135", "Hampstead Town", "526290", "186350", "-0.179515", "51.561908", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "51.561908", "-0.179515", null, false ], "Defined by data provider", "2015-11-09T15:14:20", "105" ]
+, [ 368, "CD8F9505-F502-46AC-851D-C815265D975C", 368, 1447082076, "1113", 1447082076, "1113", null, "CTIL", "136481", "Maple House, W1", "149 Tottenham Court Road", "W1T 7NF", "E05000129", "Bloomsbury", "529550", "182270", "-0.134012", "51.524504", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "51.524504", "-0.134012", null, false ], "Defined by data provider", "2015-11-09T15:14:20", "19" ]
+, [ 369, "B80F92EB-C540-40E5-A6E5-0A2F70983BFB", 369, 1447082076, "1113", 1447082076, "1113", null, "EE and Three", "98117", "TORRINGTON PLACE", "1-19 TORRINGTON PLACE TOTTENHAM COURT ROAD  LONDON LONDON: CAMDEN", "WC1E 7HB", "E05000129", "Bloomsbury", "529515", "181988", "-0.13462", "51.521978", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "51.521978", "-0.13462", null, false ], "Defined by data provider", "2015-11-09T15:14:20", "136" ]
+, [ 370, "F359099D-974B-4AAA-8000-4F4FE7860D72", 370, 1447082076, "1113", 1447082076, "1113", null, "CTIL", "143500", "PARLIAMENT HILL", "LINTON HOUSE", "NW5 2XH", "E05000139", "Kentish Town", "528790", "185480", "-0.143787", "51.553525", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "51.553525", "-0.143787", null, false ], "Defined by data provider", "2015-11-09T15:14:20", "36" ]
+, [ 371, "C0358D36-EC31-44A9-AE19-2F099CA21AC0", 371, 1447082076, "1113", 1447082076, "1113", null, "EE and Three", "25027", "NW0027 - THE SPANIARDS INN 205927", "The Spaniards Inn, Spaniards Road, Hampstead Heath, London", "NW3 7JJ", "E05000135", "Hampstead Town", "526612", "187163", "-0.174579", "51.569143", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "51.569143", "-0.174579", null, false ], "Defined by data provider", "2015-11-09T15:14:20", "153" ]
+, [ 372, "448D1924-8B2D-47A4-937E-48F5255C9142", 372, 1447082076, "1113", 1447082076, "1113", null, "EE and Three", "98121", "CAA HOUSE", "CAA House 45-49 Kingsway  LONDON LONDON: WESTMINSTER", "WC2B 6TJ", "E05000138", "Holborn and Covent Garden", "530575", "181214", "-0.119637", "51.514779", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "51.514779", "-0.119637", null, false ], "Defined by data provider", "2015-11-09T15:14:20", "139" ]
+, [ 373, "A005507E-A0FB-49FA-8DA2-E43A1ADBA215", 373, 1447082076, "1113", 1447082076, "1113", null, "Three and EE", "50424", "BT SPEC KENTISH TOWN TE", "OFF KELLY STREET KENTISH TOWN ROAD  LONDON LONDON: CAMDEN", "NW5 3LW", "E05000139", "Kentish Town", "528883", "184629", "-0.142758", "51.545856", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "51.545856", "-0.142758", null, false ], "Defined by data provider", "2015-11-09T15:14:20", "164" ]
+, [ 374, "3C2DACE3-34F2-445A-9494-4F7FF834B310", 374, 1447082076, "1113", 1447082076, "1113", null, "EE", "13719", "KENTISH TOWN FIRE STATION", "KENTISH TOWN FIRE STATION, HIGHGATE ROAD, LONDON, ,", "NW5 2NX", "E05000139", "Kentish Town", "528943", "185422", "-0.141603", "51.552969", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "51.552969", "-0.141603", null, false ], "Defined by data provider", "2015-11-09T15:14:20", "83" ]
+, [ 375, "2B6257B1-CC63-42F5-92FB-17D884D06896", 375, 1447082076, "1113", 1447082076, "1113", null, "EE and Three", "90562", "HAMPSTEAD COMFORT INN", "HAMPSTEAD COMFORT INN 5-7 Frognal Hampstead LONDON LONDON: CAMDEN", "NW3 6AL", "E05000133", "Frognal and Fitzjohns", "526234", "185003", "-0.180805", "51.549816", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "51.549816", "-0.180805", null, false ], "Defined by data provider", "2015-11-09T15:14:20", "134" ]
+, [ 376, "214CB271-2087-4AC9-9B10-B19F81E7FEC3", 376, 1447082076, "1113", 1447082076, "1113", null, "Three and EE", "50769", "ALVANLEY COURTNW", "ALVANLEY COURTNW 250 Finchley Road  LONDON LONDON: CAMDEN", "NW3 6DL", "E05000133", "Frognal and Fitzjohns", "525760", "185325", "-0.187523", "51.552815", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "51.552815", "-0.187523", null, false ], "Defined by data provider", "2015-11-09T15:14:20", "165" ]
+, [ 377, "217C535D-246D-48E7-8B22-20AE97AE04A4", 377, 1447082076, "1113", 1447082076, "1113", null, "EE and Three", "90026", "ROCHESTER COURT", "Rochester Court Rochester Square  LONDON LONDON: CAMDEN", "NW1 9EL", "E05000131", "Cantelowes", "529350", "184330", "-0.136137", "51.543063", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "51.543063", "-0.136137", null, false ], "Defined by data provider", "2015-11-09T15:14:20", "130" ]
+, [ 378, "4304D2DE-C669-4C78-B633-F7FF242064B4", 378, 1447082076, "1113", 1447082076, "1113", null, "EE and Three", "25032", "NW0033 - WAVERLEY COURT 220268", "Waverly court, 41 Steeles Road, Hampstead, London", "NW3 4SB", "E05000128", "Belsize", "527636", "184510", "-0.160775", "51.54507", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "51.54507", "-0.160775", null, false ], "Defined by data provider", "2015-11-09T15:14:20", "154" ]
+, [ 379, "DCA45876-8DDF-46A0-B4DD-CA051DA7FC60", 379, 1447082076, "1113", 1447082076, "1113", null, "CTIL", "144334", "BELSIZE PARK", "OUTSIDE 242 GRAFTON RD", "NW5 4HH", "E05000134", "Gospel Oak", "528100", "185100", "-0.153872", "51.550267", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "51.550267", "-0.153872", null, false ], "Defined by data provider", "2015-11-09T15:14:20", "34" ]
+, [ 380, "F0ADC800-6B90-4137-B952-186E8BF665B1", 380, 1447082076, "1113", 1447082076, "1113", null, "EE and Three", "98528", "GREATER LONDON HOUSE", "RESOLUTION PROPERTY GLH GREATER LONDON HOUSE,HAMPSTEAD ROAD  LONDON LONDON: CAMDEN", "NW1 7TZ", "E05000142", "Regent's Park", "529115", "183320", "-0.139894", "51.53404", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "51.53404", "-0.139894", null, false ], "Defined by data provider", "2015-11-09T15:14:20", "150" ]
+, [ 381, "CDC5676B-AFE8-4237-A911-E384DD4043E2", 381, 1447082076, "1113", 1447082076, "1113", null, "CTIL", "143474", "CAMDEN TOWN", "THE FORUM", "NW1 0LF", "E05000143", "St Pancras and Somers Town", "529250", "183797", "-0.137774", "51.538296", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "51.538296", "-0.137774", null, false ], "Defined by data provider", "2015-11-09T15:14:20", "72" ]
+, [ 382, "4F226448-BD51-4018-BA1C-19129A7AA6C8", 382, 1447082076, "1113", 1447082076, "1113", null, "EE and Three", "50424", "BT SPEC KENTISH TOWN TE", "OFF KELLY STREET KENTISH TOWN ROAD  LONDON LONDON: CAMDEN", "NW5 3LW", "E05000139", "Kentish Town", "528883", "184629", "-0.142758", "51.545856", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "51.545856", "-0.142758", null, false ], "Defined by data provider", "2015-11-09T15:14:20", "119" ]
+, [ 383, "77694BFD-B417-4445-8239-8C535F89737C", 383, 1447082076, "1113", 1447082076, "1113", null, "Three and EE", "53663", "MAPLE HOUSE", "MAPLE HOUSE TOTTENHAM COURT ROAD CAMDEN LONDON LONDON: CAMDEN", "WC1E 0XY", "E05000129", "Bloomsbury", "529322", "182222", "-0.137314", "51.524125", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "51.524125", "-0.137314", null, false ], "Defined by data provider", "2015-11-09T15:14:20", "169" ]
+, [ 384, "8C344DEC-2F6F-4F04-9C7B-90BE526B696B", 384, 1447082076, "1113", 1447082076, "1113", null, "CTIL", "144406", "KINGS CROSS RAILWAY STATION", "KINGS CROSS", "TBC", "E05000143", "St Pancras and Somers Town", "530222", "183233", "-0.123975", "51.533004", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "51.533004", "-0.123975", null, false ], "Defined by data provider", "2015-11-09T15:14:20", "26" ]
+, [ 385, "7AA81197-7C07-47B0-A5D3-328074DF484C", 385, 1447082076, "1113", 1447082076, "1113", null, "CTIL", "140779", "Penderel House", "283 High Holborn", "WC1R 5DJ", "E05000138", "Holborn and Covent Garden", "530858", "181579", "-0.115425", "51.517993", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "51.517993", "-0.115425", null, false ], "Defined by data provider", "2015-11-09T15:14:20", "8" ]
+, [ 386, "5131C402-20C4-4126-8C7B-87DECC8A3886", 386, 1447082076, "1113", 1447082076, "1113", null, "CTIL", "136008", "LANSDOWNE SQUARE", "UNIVERSITY OF LONDON", "WC1N 1DJ", "E05000141", "King's Cross", "530410", "182199", "-0.121649", "51.523669", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "51.523669", "-0.121649", null, false ], "Defined by data provider", "2015-11-09T15:14:20", "11" ]
+, [ 387, "4EDCDFB2-5115-47B0-8B2B-67BCCF256F78", 387, 1447082076, "1113", 1447082076, "1113", null, "CTIL", "147084", "HAMPSTEAD 2 - 3G SLM", "82 HEATH STREET", "NW3 1DN", "E05000135", "Hampstead Town", "526380", "185870", "-0.178389", "51.557575", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "51.557575", "-0.178389", null, false ], "Defined by data provider", "2015-11-09T15:14:20", "49" ]
+, [ 388, "573E5704-2D78-4E63-9EB0-65CC9D26DA47", 388, 1447082076, "1113", 1447082076, "1113", null, "CTIL", "140519", "Bacton House", "Haverstock Rd", "NW5 4PL", "E05000134", "Gospel Oak", "528001", "185310", "-0.155223", "51.552177", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "51.552177", "-0.155223", null, false ], "Defined by data provider", "2015-11-09T15:14:20", "33" ]
+, [ 389, "982FC5BA-EA34-4C55-AD3A-5DDD98E18479", 389, 1447082076, "1113", 1447082076, "1113", null, "EE", "13992", "HAMPSTEAD TE", "361 FINCHLEY ROAD, LONDON, , ,", "NW3 6DH", "E05000145", "West Hampstead", "525940", "185160", "-0.184987", "51.551292", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "51.551292", "-0.184987", null, false ], "Defined by data provider", "2015-11-09T15:14:20", "89" ]
+, [ 390, "FBBFE4A0-5D14-4AF0-A316-4393D03CDC67", 390, 1447082076, "1113", 1447082076, "1113", null, "EE and Three", "98491", "LINTON HOUSE", "Linton House 39-51 Highgate Road Kentish Town LONDON LONDON: CAMDEN", "NW5 1RS", "E05000139", "Kentish Town", "528820", "185460", "-0.143362", "51.553339", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "51.553339", "-0.143362", null, false ], "Defined by data provider", "2015-11-09T15:14:20", "149" ]
+, [ 391, "152DB711-C8BC-45A2-A222-81297F1A337D", 391, 1447082076, "1113", 1447082076, "1113", null, "EE and Three", "98466", "INTERNATIONAL HALL", "UNIVERSITY OF LONDON HALLS OF RESIDENCE,BRUNSWICK SQUARE  LONDON LONDON: CAMDEN", "WC1N 1AX", "E05000141", "King's Cross", "530382", "182194", "-0.122054", "51.52363", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "51.52363", "-0.122054", null, false ], "Defined by data provider", "2015-11-09T15:14:20", "147" ]
+, [ 392, "20CE8C07-59E1-4732-A0EF-9D182F776F77", 392, 1447082076, "1113", 1447082076, "1113", null, "Three and EE", "51136", "NORTH END WAY DNS", "NORTH END WAY NORTH END WAY HAMPSTEAD LONDON LONDON: CAMDEN", "NW3 1EA", "E05000135", "Hampstead Town", "526285", "186365", "-0.179581", "51.562044", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "51.562044", "-0.179581", null, false ], "Defined by data provider", "2015-11-09T15:14:20", "166" ]
+, [ 393, "B6FA3E28-6DF6-4565-A50F-BEF9F2A32EB7", 393, 1447082076, "1113", 1447082076, "1113", null, "CTIL", "136441", "HATTON GARDEN", "63-66 HATTON GARDENS", "EC1N 8LE", "E05000138", "Holborn and Covent Garden", "531296", "181934", "-0.108984", "51.521082", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "51.521082", "-0.108984", null, false ], "Defined by data provider", "2015-11-09T15:14:20", "80" ]
+, [ 394, "34779A0C-39FF-4B88-A59A-82B00F034F96", 394, 1447082076, "1113", 1447082076, "1113", null, "CTIL", "147600", "RADISSON EDWARDIAN HAMPSHIRE H", "RADISSON EDWARDIAN HAMPSHIRE HOTEL - POI", "WC2H 7LH", "E05000141", "King's Cross", "530097", "182489", "-0.126051", "51.526347", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "51.526347", "-0.126051", null, false ], "Defined by data provider", "2015-11-09T15:14:20", "3" ]
+, [ 395, "E1946C91-3198-40A0-8E05-AE088EDA85B1", 395, 1447082076, "1113", 1447082076, "1113", null, "CTIL", "136435", "Britannia Hotel", "Britannia Hotel", "NW3 3NA", "E05000128", "Belsize", "527520", "184420", "-0.162479", "51.544288", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "51.544288", "-0.162479", null, false ], "Defined by data provider", "2015-11-09T15:14:20", "46" ]
+, [ 396, "A039F542-2BE1-4FA1-B9C1-D9DCB4C14E09", 396, 1447082076, "1113", 1447082076, "1113", null, "EE", "28295", "ATOS TRITON SQUARE IN BUILDING", "ATOS ORIGIN, 4 TRITON SQUARE, REGENTS PLACE, LONDON,", "NW1 3HG", "E05000142", "Regent's Park", "529060", "182356", "-0.14104", "51.525389", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "51.525389", "-0.14104", null, false ], "Defined by data provider", "2015-11-09T15:14:20", "111" ]
+, [ 397, "7DC25F6E-6D7B-4C01-AC87-35D26D69108D", 397, 1447082076, "1113", 1447082076, "1113", null, "EE and Three", "90003", "ROYAL NATIONAL HOTEL", "Royal National Hotel Bedford Way  LONDON LONDON: CAMDEN", "WC1H 0DG", "E05000129", "Bloomsbury", "529960", "182219", "-0.128124", "51.523952", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "51.523952", "-0.128124", null, false ], "Defined by data provider", "2015-11-09T15:14:20", "128" ]
+, [ 398, "9DDD8F7C-4478-4214-A214-BD44B0966F28", 398, 1447082076, "1113", 1447082076, "1113", null, "CTIL", "136869", "Kennedy Hotel", "Kennedy Hotel", "NW1 2LP", "E05000142", "Regent's Park", "529310", "182800", "-0.137275", "51.529322", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "51.529322", "-0.137275", null, false ], "Defined by data provider", "2015-11-09T15:14:20", "62" ]
+, [ 399, "9591EDEA-3B8D-4CA5-9A95-6B59209D3B5A", 399, 1447082076, "1113", 1447082076, "1113", null, "EE", "14611", "TIMINIS HAIRDRESSERS", "16 PRATT STREET, , , LONDON,", "NW1 0AB", "E05000142", "Regent's Park", "529094", "183685", "-0.140063", "51.537325", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "51.537325", "-0.140063", null, false ], "Defined by data provider", "2015-11-09T15:14:20", "99" ]
+, [ 400, "B0E50421-30CE-4CA1-925B-2F136449403D", 400, 1447082076, "1113", 1447082076, "1113", null, "EE", "13832", "M-BT BT TOWER CLEVELAND ST", "BT TOWER, HOWLAND STREET, (CLEVELAND STREET), LONDON,", "W1P 0BR", "E05000129", "Bloomsbury", "529220", "181910", "-0.138898", "51.521345", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "51.521345", "-0.138898", null, false ], "Defined by data provider", "2015-11-09T15:14:20", "86" ]
+, [ 401, "03D054EE-FE68-4C5A-935E-8C236C32C551", 401, 1447082076, "1113", 1447082076, "1113", null, "Three and EE", "98119", "IMPERIAL HOTEL", "Imperial Hotel Russell Square  LONDON LONDON: CAMDEN", "WC1B 5BB", "E05000138", "Holborn and Covent Garden", "530270", "182015", "-0.123734", "51.522047", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "51.522047", "-0.123734", null, false ], "Defined by data provider", "2015-11-09T15:14:20", "182" ]
+, [ 402, "8355FC0E-C236-4D41-954A-89ADD5FFB60E", 402, 1447082076, "1113", 1447082076, "1113", null, "CTIL", "136967", "Royal Free Hospital", "Royal Free Hospital", "NW3 2QG", "E05000135", "Hampstead Town", "527320", "185340", "-0.165029", "51.552601", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "51.552601", "-0.165029", null, false ], "Defined by data provider", "2015-11-09T15:14:20", "48" ]
+, [ 403, "E8748972-0ED3-43B9-8F6E-1F0A3821B842", 403, 1447082076, "1113", 1447082076, "1113", null, "EE and Three", "98162", "40 MELTON STREET", "40 MELTON STREET EUSTON SQUARE  LONDON LONDON: CAMDEN", "NW1 2EE", "E05000142", "Regent's Park", "529570", "182590", "-0.133606", "51.527376", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "51.527376", "-0.133606", null, false ], "Defined by data provider", "2015-11-09T15:14:20", "141" ]
+, [ 404, "51979A1E-FA02-47C9-8B28-CC419BAED208", 404, 1447082076, "1113", 1447082076, "1113", null, "EE", "14998", "LOCKS ELEVEN", "LOCKS ELEVEN LOCKSMITHS, 40 GRAYS INN ROAD, , LONDON,", "WC1X8LR", "E05000138", "Holborn and Covent Garden", "531102", "181764", "-0.111842", "51.519599", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "51.519599", "-0.111842", null, false ], "Defined by data provider", "2015-11-09T15:14:20", "110" ]
+, [ 405, "B8F0EA9F-B0CA-4B52-84D2-A9B037C399B9", 405, 1447082076, "1113", 1447082076, "1113", null, "CTIL", "136646", "Kings Cross Premier Inn", "26-30 York Way", "N1 9AA", "E05000141", "King's Cross", "530310", "182938", "-0.122816", "51.530333", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "51.530333", "-0.122816", null, false ], "Defined by data provider", "2015-11-09T15:14:20", "79" ]
+, [ 406, "616098A4-89B2-47E3-83BF-DCDB744D4CF2", 406, 1447082076, "1113", 1447082076, "1113", null, "EE and Three", "50050", "NO 1 EUSTON ROAD", "NO 1 EUSTON ROAD 1 Euston Road  LONDON LONDON: CAMDEN", "NW1 2SA", "E05000141", "King's Cross", "530328", "182934", "-0.122559", "51.530293", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "51.530293", "-0.122559", null, false ], "Defined by data provider", "2015-11-09T15:14:20", "116" ]
+ ]
+}

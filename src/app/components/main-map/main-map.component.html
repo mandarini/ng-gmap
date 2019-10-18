@@ -1,0 +1,25 @@
+<div id="location-buttons">
+  <button (click)="city('lon')">London</button>
+  <button (click)="city('man')">Manchester</button>
+  <button (click)="changeType('dark')">Lights off</button>
+  <button (click)="changeType('plain')">Lights on</button>
+  <button (click)="showMasts(true)">Show Masts</button>
+  <button (click)="showMasts(false)">Hide Masts</button>
+  <button (click)="cluster(true, 10)">Cluster</button>
+  <button (click)="cluster(false, 10)">Hide Clusters</button>
+  <input
+    #box
+    type="number"
+    #inputElem
+    [value]="clust"
+    (keyup.enter)="changeCluster($event.target.value)"
+  />
+  <button (click)="changeCluster(inputElem.value)">
+    ok
+  </button>
+</div>
+<div #mapElement class="map"></div>
+<p #legend class="hide">
+  Prevalence factor of Loneliness of those over the age of 65:
+  <span #info></span>
+</p>
