@@ -8,7 +8,6 @@ export class DataService {
   constructor(private http: HttpClient) {}
 
   loadAsset(url: string): Promise<{}> {
-    console.log("called");
     return this.http.get(url).toPromise();
   }
 }
