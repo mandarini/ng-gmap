@@ -10,16 +10,15 @@
   <input
     #box
     type="number"
-    #inputElem
-    [value]="clust"
-    (keyup.enter)="changeCluster($event.target.value)"
+    [(ngModel)]="clust_num"
+    (keyup.enter)="changeCluster()"
   />
-  <button (click)="changeCluster(inputElem.value)">
+  <button (click)="changeCluster()">
     ok
   </button>
 </div>
 <div #mapElement class="map"></div>
-<p #legend class="hide">
+<p #legend *ngIf="showLonely">
   Prevalence factor of Loneliness of those over the age of 65:
   <span #info></span>
 </p>

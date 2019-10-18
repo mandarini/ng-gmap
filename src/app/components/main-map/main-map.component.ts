@@ -9,9 +9,10 @@ import { DataService } from "src/app/services/data.service";
 
 import { styledMap } from "src/app/objects/styledMap";
 import { customGradient } from "src/app/objects/gradient";
+import { mapNumber } from "src/app/functions/mapNumber";
 
 const your_API_key = "AIzaSyBvoXsT-nJZYZnAHcBt2ryxwcTX1dPzGkY";
-const url = `https://maps.googleapis.com/maps/api/js?key=${your_API_key}&libraries=geometry`;
+const url = `https://maps.googleapis.com/maps/api/js?key=${your_API_key}&libraries=geometry,visualization`;
 
 @Component({
   selector: "my-main-map",
@@ -24,12 +25,18 @@ export class MainMapComponent implements OnInit, AfterViewInit {
   london: google.maps.LatLng;
   infoWindow: google.maps.InfoWindow;
   markerClusterer: MarkerClusterer;
+  heatmap: google.maps.visualization.HeatmapLayer;
 
-  lettings: string[];
+  lettings: string[][];
   masts: string[][];
   markers: google.maps.Marker[] = [];
 
+  showLonely: boolean = false;
+  clust_num: number;
+
   @ViewChild("mapElement", { static: false }) mapElm: ElementRef;
+  @ViewChild("legend", { static: false }) legend: ElementRef;
+  @ViewChild("info", { static: false }) infoBox: ElementRef;
 
   constructor(private load: ScriptLoadService, private data: DataService) {}
 
@@ -76,6 +83,62 @@ export class MainMapComponent implements OnInit, AfterViewInit {
     this.map.controls[this.maps.ControlPosition.TOP_CENTER].push(locControl);
 
     this.loadAllMarkers(this.map);
+    this.loadGeoJson(this.map);
+    this.loadHeatmapData(this.map);
+  }
+
+  loadHeatmapData(map: google.maps.Map) {
+    this.data
+      .loadAsset("assets/data/letting.json")
+      .then((data: { meta: {}; data: string[][] }) => {
+        this.lettings = data.data;
+        const heatmapData = [];
+        this.lettings.map((x: string[]) => {
+          heatmapData.push({
+            location: new this.maps.LatLng(x[24], x[23]),
+            weight: parseInt(x[15], 10)
+          });
+        });
+        this.heatmap = new this.maps.visualization.HeatmapLayer({
+          data: heatmapData
+        });
+        this.heatmap.set("gradient", customGradient);
+        this.heatmap.set("radius", 70);
+        this.heatmap.set("opacity", 1);
+        // heatmap.setMap(map);
+      });
+  }
+
+  loadGeoJson(map: google.maps.Map) {
+    map.data.loadGeoJson("assets/data/lonely.geojson");
+    map.data.addListener("mouseover", e => {
+      this.legend.nativeElement.style.display = "block";
+      this.infoBox.nativeElement.innerText = e.feature.getProperty(
+        "PREVALENCE"
+      );
+    });
+
+    map.data.addListener("mouseout", e => {
+      this.legend.nativeElement.style.display = "none";
+    });
+    map.data.setStyle(feature => {
+      const lon = feature.getProperty("PREVALENCE");
+      const value = 255 - Math.round(mapNumber(lon, 0, 5, 0, 255));
+      const color = "rgb(" + value + "," + value + "," + 0 + ")";
+      return {
+        fillColor: color,
+        strokeWeight: 1
+      };
+    });
+
+    this.infoWindow = new this.maps.InfoWindow();
+    map.data.addListener("click", e => {
+      this.infoWindow.setPosition(e.latLng);
+      this.infoWindow.setContent(`<div class="overlay">
+      <p><b>Prevalence factor of Loneliness of those over the age of 65: </b>
+        ${e.feature.getProperty("PREVALENCE")}</p></div>`);
+      this.infoWindow.open(map);
+    });
   }
 
   loadAllMarkers(map: google.maps.Map): void {
@@ -90,14 +153,14 @@ export class MainMapComponent implements OnInit, AfterViewInit {
       .loadAsset("assets/data/masts.json")
       .then((masts: { meta: {}; data: string[][] }) => {
         this.masts = masts.data;
-
         this.masts.map((x: string[]) => {
           let marker = new this.maps.Marker({
             position: new this.maps.LatLng(x[18], x[17]),
             icon: antenna
           });
           this.infoWindow = new this.maps.InfoWindow();
-          marker.addListener("click", () => {
+          marker.addListener("click", e => {
+            this.infoWindow.setPosition(e.latLng);
             this.infoWindow.setContent(marker.getTitle());
             this.infoWindow.open(map, marker);
           });
@@ -109,7 +172,7 @@ export class MainMapComponent implements OnInit, AfterViewInit {
       });
   }
 
-  showMasts(show: boolean) {
+  showMasts(show: boolean): void {
     if (show) {
       this.markers.map(marker => {
         marker.setMap(this.map);
@@ -121,7 +184,7 @@ export class MainMapComponent implements OnInit, AfterViewInit {
     }
   }
 
-  cluster(bool: boolean, cluster: number) {
+  cluster(bool: boolean, cluster: number): void {
     if (bool) {
       this.markerClusterer = new MarkerClusterer(this.map, this.markers, {
         imagePath: "assets/img/m"
@@ -132,9 +195,11 @@ export class MainMapComponent implements OnInit, AfterViewInit {
     }
   }
 
-  changeCluster(value: string) {
-    this.markerClusterer.clearMarkers();
-    this.cluster(true, parseInt(value, 10));
+  changeCluster(): void {
+    if (this.markerClusterer) {
+      this.markerClusterer.clearMarkers();
+    }
+    this.cluster(true, this.clust_num);
   }
 
   coords(x: number, y: number) {
