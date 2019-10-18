@@ -11,7 +11,7 @@ import { styledMap } from "src/app/objects/styledMap";
 import { customGradient } from "src/app/objects/gradient";
 import { mapNumber } from "src/app/functions/mapNumber";
 
-const your_API_key = "AIzaSyCrJXi-qaWm9FtOLL0h3xO_kfORit6WS2s";
+const your_API_key = "AIzaSyD7kwaDL4gNvySYEPn4jewntWwd5eJUzOE";
 const url = `https://maps.googleapis.com/maps/api/js?key=${your_API_key}&libraries=geometry,drawing,visualization`;
 
 @Component({
@@ -54,6 +54,7 @@ export class MainMapComponent implements OnInit, AfterViewInit {
   @ViewChild("legend", { static: false }) legend: ElementRef;
   @ViewChild("controls", { static: false }) controls: ElementRef;
   @ViewChild("drawingControls", { static: false }) drawingControls: ElementRef;
+  @ViewChild("link", { static: false }) katlink: ElementRef;
 
   constructor(private load: ScriptLoadService, private data: DataService) {}
 
@@ -108,6 +109,10 @@ export class MainMapComponent implements OnInit, AfterViewInit {
 
     this.map.controls[google.maps.ControlPosition.TOP_RIGHT].push(
       this.drawingControls.nativeElement
+    );
+
+    this.map.controls[google.maps.ControlPosition.RIGHT_BOTTOM].push(
+      this.katlink.nativeElement
     );
 
     this.drawingManager = new google.maps.drawing.DrawingManager({
