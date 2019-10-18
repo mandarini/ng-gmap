@@ -20,7 +20,6 @@ const url = `https://maps.googleapis.com/maps/api/js?key=${your_API_key}&librari
   styleUrls: ["./main-map.component.scss"]
 })
 export class MainMapComponent implements OnInit, AfterViewInit {
-  maps: any;
   map: google.maps.Map;
 
   london: google.maps.LatLng;
@@ -131,24 +130,25 @@ export class MainMapComponent implements OnInit, AfterViewInit {
         this.lettings = data.data;
         const heatmapData = [];
         this.lettings.map((x: string[]) => {
-          heatmapData.push({
-            location: new google.maps.LatLng(
-              parseFloat(x[24]),
-              parseFloat(x[23])
-            ),
-            weight: parseInt(x[15], 10)
-          });
+          if (x[24] && x[23]) {
+            heatmapData.push({
+              location: new google.maps.LatLng(
+                parseFloat(x[24]),
+                parseFloat(x[23])
+              ),
+              weight: parseInt(x[15], 10)
+            });
+          }
         });
         this.heatmap = new google.maps.visualization.HeatmapLayer({
           data: heatmapData
         });
         this.heatmap.set("gradient", customGradient);
-        this.heatmap.set("radius", 70);
+        this.heatmap.set("radius", 40);
         this.heatmap.set("opacity", 1);
-        console.log("done", heatmapData[0]);
       })
       .catch(error => {
-        console.log("oops");
+        console.log(error);
       });
   }
 
