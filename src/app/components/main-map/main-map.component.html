@@ -21,23 +21,35 @@
       <ng-container *ngIf="clustersVisible">Hide</ng-container
       ><ng-container *ngIf="!clustersVisible">Show</ng-container> Cluster
     </button>
+    <label for="clusters">Cluster size</label>
     <input
-      #box
-      type="number"
+      [disabled]="!clustersVisible"
+      type="range"
+      name="clusters"
+      min="0"
+      max="250"
+      (change)="changeCluster()"
       [(ngModel)]="clust_num"
-      placeholder="Set cluster size"
-      (keyup.enter)="changeCluster()"
     />
-    <button (click)="changeCluster()">
-      ok
-    </button>
   </div>
   <div>
     <p>
       Rents
     </p>
-    <!-- <button (click)="showMasts(true)">Show Masts</button>
-    <button (click)="showMasts(false)">Hide Masts</button> -->
+    <button (click)="toggleHeatmap()">
+      <ng-container *ngIf="heatmapVisible">Hide</ng-container
+      ><ng-container *ngIf="!heatmapVisible">Show</ng-container> Rent Heatmap
+    </button>
+    <label for="Radius">Heatmap radius</label>
+    <input
+      [disabled]="!heatmapVisible"
+      type="range"
+      name="Radius"
+      min="0"
+      max="70"
+      (change)="changed()"
+      [(ngModel)]="heatmap_radius"
+    />
   </div>
 </div>
 <div #mapElement class="map"></div>

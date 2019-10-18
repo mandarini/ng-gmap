@@ -38,6 +38,9 @@ export class MainMapComponent implements OnInit, AfterViewInit {
   dark_theme: boolean = true;
   mastsVisible: boolean = false;
   clustersVisible: boolean = false;
+  heatmapVisible: boolean = false;
+
+  heatmap_radius: number = 20;
 
   @ViewChild("mapElement", { static: false }) mapElm: ElementRef;
   @ViewChild("legend", { static: false }) legend: ElementRef;
@@ -193,24 +196,41 @@ export class MainMapComponent implements OnInit, AfterViewInit {
     this.mastsVisible = !this.mastsVisible;
   }
 
-  toggleClusters(clust_num: number): void {
+  toggleClusters(): void {
     if (!this.clustersVisible) {
       this.markerClusterer = new MarkerClusterer(this.map, this.markers, {
         imagePath: "assets/img/m"
       });
-      this.markerClusterer.setGridSize(clust_num ? clust_num : 10);
+      this.markerClusterer.setGridSize(10);
     } else {
       this.markerClusterer.clearMarkers();
     }
     this.clustersVisible = !this.clustersVisible;
   }
 
+  toggleHeatmap(): void {
+    if (this.heatmapVisible) {
+      this.heatmap.setMap(null);
+    } else {
+      this.heatmap.setMap(this.map);
+    }
+    this.heatmapVisible = !this.heatmapVisible;
+  }
+
   changeCluster(): void {
+    console.log(this.clust_num);
+    this.clustersVisible = true;
     if (this.markerClusterer) {
       this.markerClusterer.clearMarkers();
     }
-    this.clustersVisible = true;
-    this.toggleClusters(this.clust_num);
+    this.markerClusterer = new MarkerClusterer(this.map, this.markers, {
+      imagePath: "assets/img/m"
+    });
+    this.markerClusterer.setGridSize(this.clust_num);
+  }
+
+  changed() {
+    this.heatmap.set("radius", this.heatmap_radius);
   }
 
   coords(x: number, y: number) {
