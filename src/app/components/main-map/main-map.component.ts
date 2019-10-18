@@ -198,7 +198,7 @@ export class MainMapComponent implements OnInit, AfterViewInit {
           this.infoWindow = new google.maps.InfoWindow();
           marker.addListener("click", e => {
             this.infoWindow.setPosition(e.latLng);
-            this.infoWindow.setContent(marker.getTitle());
+            this.infoWindow.setContent(`<p>${x[14]}</p>`);
             this.infoWindow.open(map, marker);
           });
           this.markers.push(marker);
