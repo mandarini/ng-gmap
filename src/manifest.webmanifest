@@ -1,7 +1,7 @@
 {
   "name": "ng-gmap",
   "short_name": "ng-gmap",
-  "theme_color": "#1976d2",
+  "theme_color": "#db7093",
   "background_color": "#fafafa",
   "display": "standalone",
   "scope": "/",
