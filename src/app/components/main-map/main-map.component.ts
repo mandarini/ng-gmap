@@ -45,6 +45,7 @@ export class MainMapComponent implements OnInit, AfterViewInit {
   @ViewChild("mapElement", { static: false }) mapElm: ElementRef;
   @ViewChild("legend", { static: false }) legend: ElementRef;
   @ViewChild("controls", { static: false }) controls: ElementRef;
+  @ViewChild("drawingControls", { static: false }) drawingControls: ElementRef;
 
   constructor(private load: ScriptLoadService, private data: DataService) {}
 
@@ -92,6 +93,10 @@ export class MainMapComponent implements OnInit, AfterViewInit {
     );
     this.map.controls[this.maps.ControlPosition.LEFT_BOTTOM].push(
       this.legend.nativeElement
+    );
+
+    this.map.controls[this.maps.ControlPosition.TOP_RIGHT].push(
+      this.drawingControls.nativeElement
     );
 
     this.loadAllMarkers(this.map);
@@ -218,7 +223,6 @@ export class MainMapComponent implements OnInit, AfterViewInit {
   }
 
   changeCluster(): void {
-    console.log(this.clust_num);
     this.clustersVisible = true;
     if (this.markerClusterer) {
       this.markerClusterer.clearMarkers();

@@ -21,7 +21,7 @@
       <ng-container *ngIf="clustersVisible">Hide</ng-container
       ><ng-container *ngIf="!clustersVisible">Show</ng-container> Cluster
     </button>
-    <label for="clusters">Cluster size</label>
+    <label for="clusters">Grid size</label>
     <input
       [disabled]="!clustersVisible"
       type="range"
@@ -51,6 +51,16 @@
       [(ngModel)]="heatmap_radius"
     />
   </div>
+</div>
+<div #drawingControls class="drawing">
+  <img src="assets/img/point.png" (click)="draw('marker')" />
+  <img src="assets/img/polygon.png" (click)="draw('polygon')" />
+  <img src="assets/img/square.png" (click)="draw('square')" />
+  <img src="assets/img/line.png" (click)="draw('polyline')" />
+  <img src="assets/img/circle.png" (click)="draw('circle')" />
+  <img src="assets/img/cat.png" (click)="draw('cat')" />
+  <img src="assets/img/pan.png" (click)="draw('pan')" />
+  <img src="assets/img/save.png" (click)="draw('save')" />
 </div>
 <div #mapElement class="map"></div>
 <p #legend [ngClass]="{ legend: showLonely }">

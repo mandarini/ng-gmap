@@ -49,6 +49,24 @@
     padding: 8px;
   }
 }
+
+.drawing {
+  display: flex;
+  flex-direction: row;
+  padding-right: 8px;
+  padding-top: 16px;
+  img {
+    background-color: #eeebe0;
+    margin: 0 4px 4px 4px;
+    border-radius: 4px;
+    box-shadow: 10px 4px 4px #c5c5c5;
+    padding: 4px;
+    height: 30px;
+    width: auto;
+    cursor: pointer;
+  }
+}
+
 p.legend {
   font-size: 1.3em;
   background-color: white;
