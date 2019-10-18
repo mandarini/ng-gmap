@@ -11,7 +11,7 @@ import { styledMap } from "src/app/objects/styledMap";
 import { customGradient } from "src/app/objects/gradient";
 import { mapNumber } from "src/app/functions/mapNumber";
 
-const your_API_key = "AIzaSyBvoXsT-nJZYZnAHcBt2ryxwcTX1dPzGkY";
+const your_API_key = "AIzaSyBcLS12k-yQK-HxD0bOFZCCwi8rssqoif8";
 const url = `https://maps.googleapis.com/maps/api/js?key=${your_API_key}&libraries=geometry,visualization,drawing`;
 
 @Component({
