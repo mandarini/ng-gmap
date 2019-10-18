@@ -1,24 +1,49 @@
-<div id="location-buttons">
-  <button (click)="city('lon')">London</button>
-  <button (click)="city('man')">Manchester</button>
-  <button (click)="changeType('dark')">Lights off</button>
-  <button (click)="changeType('plain')">Lights on</button>
-  <button (click)="showMasts(true)">Show Masts</button>
-  <button (click)="showMasts(false)">Hide Masts</button>
-  <button (click)="cluster(true, 10)">Cluster</button>
-  <button (click)="cluster(false, 10)">Hide Clusters</button>
-  <input
-    #box
-    type="number"
-    [(ngModel)]="clust_num"
-    (keyup.enter)="changeCluster()"
-  />
-  <button (click)="changeCluster()">
-    ok
-  </button>
+<div #controls class="controls">
+  <div>
+    <p>City Chooser</p>
+    <button (click)="city('lon')">London</button>
+    <button (click)="city('man')">Manchester</button>
+  </div>
+  <div>
+    <p>Theme Chooser</p>
+    <button (click)="changeType()">
+      Lights <ng-container *ngIf="dark_theme">on</ng-container
+      ><ng-container *ngIf="!dark_theme">off</ng-container>
+    </button>
+  </div>
+  <div class="masts">
+    <p>Masts</p>
+    <button (click)="toggleMasts()">
+      <ng-container *ngIf="mastsVisible">Hide</ng-container
+      ><ng-container *ngIf="!mastsVisible">Show</ng-container> Masts
+    </button>
+    <button (click)="toggleClusters()">
+      <ng-container *ngIf="clustersVisible">Hide</ng-container
+      ><ng-container *ngIf="!clustersVisible">Show</ng-container> Cluster
+    </button>
+    <input
+      #box
+      type="number"
+      [(ngModel)]="clust_num"
+      placeholder="Set cluster size"
+      (keyup.enter)="changeCluster()"
+    />
+    <button (click)="changeCluster()">
+      ok
+    </button>
+  </div>
+  <div>
+    <p>
+      Rents
+    </p>
+    <!-- <button (click)="showMasts(true)">Show Masts</button>
+    <button (click)="showMasts(false)">Hide Masts</button> -->
+  </div>
 </div>
 <div #mapElement class="map"></div>
-<p #legend *ngIf="showLonely">
-  Prevalence factor of Loneliness of those over the age of 65:
-  <span #info></span>
+<p #legend [ngClass]="{ legend: showLonely }">
+  <ng-container *ngIf="showLonely"
+    >Prevalence factor of Loneliness of those over the age of 65:
+    {{ prevalence }}</ng-container
+  >
 </p>

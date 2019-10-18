@@ -33,10 +33,15 @@ export class MainMapComponent implements OnInit, AfterViewInit {
 
   showLonely: boolean = false;
   clust_num: number;
+  prevalence: string;
+
+  dark_theme: boolean = true;
+  mastsVisible: boolean = false;
+  clustersVisible: boolean = false;
 
   @ViewChild("mapElement", { static: false }) mapElm: ElementRef;
   @ViewChild("legend", { static: false }) legend: ElementRef;
-  @ViewChild("info", { static: false }) infoBox: ElementRef;
+  @ViewChild("controls", { static: false }) controls: ElementRef;
 
   constructor(private load: ScriptLoadService, private data: DataService) {}
 
@@ -79,8 +84,12 @@ export class MainMapComponent implements OnInit, AfterViewInit {
     this.map.mapTypes.set("dark_map", darkmap);
     this.map.setMapTypeId("dark_map");
 
-    const locControl = document.getElementById("location-buttons");
-    this.map.controls[this.maps.ControlPosition.TOP_CENTER].push(locControl);
+    this.map.controls[this.maps.ControlPosition.LEFT_TOP].push(
+      this.controls.nativeElement
+    );
+    this.map.controls[this.maps.ControlPosition.LEFT_BOTTOM].push(
+      this.legend.nativeElement
+    );
 
     this.loadAllMarkers(this.map);
     this.loadGeoJson(this.map);
@@ -112,14 +121,12 @@ export class MainMapComponent implements OnInit, AfterViewInit {
   loadGeoJson(map: google.maps.Map) {
     map.data.loadGeoJson("assets/data/lonely.geojson");
     map.data.addListener("mouseover", e => {
-      this.legend.nativeElement.style.display = "block";
-      this.infoBox.nativeElement.innerText = e.feature.getProperty(
-        "PREVALENCE"
-      );
+      this.showLonely = true;
+      this.prevalence = e.feature.getProperty("PREVALENCE");
     });
 
     map.data.addListener("mouseout", e => {
-      this.legend.nativeElement.style.display = "none";
+      this.showLonely = false;
     });
     map.data.setStyle(feature => {
       const lon = feature.getProperty("PREVALENCE");
@@ -172,8 +179,9 @@ export class MainMapComponent implements OnInit, AfterViewInit {
       });
   }
 
-  showMasts(show: boolean): void {
-    if (show) {
+  toggleMasts(): void {
+    console.log(this.mastsVisible);
+    if (!this.mastsVisible) {
       this.markers.map(marker => {
         marker.setMap(this.map);
       });
@@ -182,24 +190,27 @@ export class MainMapComponent implements OnInit, AfterViewInit {
         marker.setMap(null);
       });
     }
+    this.mastsVisible = !this.mastsVisible;
   }
 
-  cluster(bool: boolean, cluster: number): void {
-    if (bool) {
+  toggleClusters(clust_num: number): void {
+    if (!this.clustersVisible) {
       this.markerClusterer = new MarkerClusterer(this.map, this.markers, {
         imagePath: "assets/img/m"
       });
-      this.markerClusterer.setGridSize(cluster);
+      this.markerClusterer.setGridSize(clust_num ? clust_num : 10);
     } else {
       this.markerClusterer.clearMarkers();
     }
+    this.clustersVisible = !this.clustersVisible;
   }
 
   changeCluster(): void {
     if (this.markerClusterer) {
       this.markerClusterer.clearMarkers();
     }
-    this.cluster(true, this.clust_num);
+    this.clustersVisible = true;
+    this.toggleClusters(this.clust_num);
   }
 
   coords(x: number, y: number) {
@@ -215,11 +226,12 @@ export class MainMapComponent implements OnInit, AfterViewInit {
     }
   }
 
-  changeType(type: string) {
-    if (type === "dark") {
+  changeType() {
+    if (!this.dark_theme) {
       this.map.setMapTypeId("dark_map");
     } else {
       this.map.setMapTypeId("roadmap");
     }
+    this.dark_theme = !this.dark_theme;
   }
 }
