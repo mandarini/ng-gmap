@@ -30,6 +30,10 @@ export class MainMapComponent implements OnInit, AfterViewInit {
   drawingManager: google.maps.drawing.DrawingManager;
   allOverlays: any[] = [];
 
+  drawingLayer: google.maps.Data;
+
+  otherGeoJson: any;
+
   lettings: string[][];
   masts: string[][];
   markers: google.maps.Marker[] = [];
@@ -112,7 +116,7 @@ export class MainMapComponent implements OnInit, AfterViewInit {
       drawingControl: false // i have my custom tools so i don't need the defaults to be displayed
     });
     this.drawingManager.setMap(this.map);
-
+    this.drawingLayer = new google.maps.Data();
     this.listenForDrawing(this.map, this.drawingManager);
 
     this.loadAllMarkers(this.map);
@@ -287,6 +291,25 @@ export class MainMapComponent implements OnInit, AfterViewInit {
       });
       switch (event.type) {
         case "polygon":
+          this.drawingLayer.add(
+            new google.maps.Data.Feature({
+              geometry: new google.maps.Data.Polygon([
+                event.overlay.getPath().getArray()
+              ])
+            })
+          );
+
+          /**
+           * We could do this, here:
+           *
+           * this.drawingLayer.setMap(map);
+           *
+           * The reason we are not doing this,
+           * is because we want to keep the custom icons
+           * showing. And if we add the data layer on the map,
+           * it will use the default.
+           */
+
           map.data.add(
             new google.maps.Data.Feature({
               geometry: new google.maps.Data.Polygon([
@@ -309,6 +332,12 @@ export class MainMapComponent implements OnInit, AfterViewInit {
               lat: bounds.getNorthEast().lat()
             }
           ];
+          this.drawingLayer.add(
+            new google.maps.Data.Feature({
+              geometry: new google.maps.Data.Polygon([points])
+            })
+          );
+
           map.data.add(
             new google.maps.Data.Feature({
               geometry: new google.maps.Data.Polygon([points])
@@ -316,6 +345,14 @@ export class MainMapComponent implements OnInit, AfterViewInit {
           );
           break;
         case "polyline":
+          this.drawingLayer.add(
+            new google.maps.Data.Feature({
+              geometry: new google.maps.Data.LineString(
+                event.overlay.getPath().getArray()
+              )
+            })
+          );
+
           map.data.add(
             new google.maps.Data.Feature({
               geometry: new google.maps.Data.LineString(
@@ -325,12 +362,28 @@ export class MainMapComponent implements OnInit, AfterViewInit {
           );
           break;
         case "circle":
+          this.drawingLayer.add(
+            new google.maps.Data.Feature({
+              properties: {
+                radius: event.overlay.getRadius()
+              },
+              geometry: new google.maps.Data.Point(event.overlay.getCenter())
+            })
+          );
+
           map.data.add(
             new google.maps.Data.Feature({
               properties: {
                 radius: event.overlay.getRadius()
               },
               geometry: new google.maps.Data.Point(event.overlay.getCenter())
+            })
+          );
+          break;
+        case "marker":
+          this.drawingLayer.add(
+            new google.maps.Data.Feature({
+              geometry: new google.maps.Data.Point(event.overlay.getPosition())
             })
           );
           break;
@@ -442,9 +495,9 @@ export class MainMapComponent implements OnInit, AfterViewInit {
         break;
       case "save":
         this.drawingManager.setDrawingMode(null);
-        this.map.data.toGeoJson(obj => {
-          console.log(JSON.stringify(obj));
+        this.drawingLayer.toGeoJson(obj => {
           console.log(obj);
+          this.download(JSON.stringify(obj), "drawingData.txt");
         });
         break;
       default:
@@ -456,6 +509,16 @@ export class MainMapComponent implements OnInit, AfterViewInit {
     this.allOverlays.map(overlay => {
       overlay.setMap(null);
     });
+    this.drawingLayer.setMap(null);
+    this.drawingLayer = new google.maps.Data();
     this.allOverlays = [];
+  }
+
+  download(content: string, fileName: string) {
+    const a = document.createElement("a");
+    const file = new Blob([content], { type: "text/plain" });
+    a.href = URL.createObjectURL(file);
+    a.download = fileName;
+    a.click();
   }
 }
