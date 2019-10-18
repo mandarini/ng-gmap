@@ -11,8 +11,8 @@ import { styledMap } from "src/app/objects/styledMap";
 import { customGradient } from "src/app/objects/gradient";
 import { mapNumber } from "src/app/functions/mapNumber";
 
-const your_API_key = "AIzaSyD7kwaDL4gNvySYEPn4jewntWwd5eJUzOE";
-const url = `https://maps.googleapis.com/maps/api/js?key=${your_API_key}&libraries=geometry,visualization,drawing`;
+const your_API_key = "AIzaSyCrJXi-qaWm9FtOLL0h3xO_kfORit6WS2s";
+const url = `https://maps.googleapis.com/maps/api/js?key=${your_API_key}&libraries=geometry,drawing,visualization`;
 
 @Component({
   selector: "my-main-map",
@@ -145,6 +145,10 @@ export class MainMapComponent implements OnInit, AfterViewInit {
         this.heatmap.set("gradient", customGradient);
         this.heatmap.set("radius", 70);
         this.heatmap.set("opacity", 1);
+        console.log("done", heatmapData[0]);
+      })
+      .catch(error => {
+        console.log("oops");
       });
   }
 
