@@ -375,8 +375,7 @@ export class MainMapComponent implements OnInit, AfterViewInit {
             new google.maps.Data.Feature({
               properties: {
                 radius: event.overlay.getRadius()
-              },
-              geometry: new google.maps.Data.Point(event.overlay.getCenter())
+              }
             })
           );
           break;
