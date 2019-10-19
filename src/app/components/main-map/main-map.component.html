@@ -1,67 +1,74 @@
 <div #controls class="controls">
-  <div>
-    <p>City Chooser</p>
-    <button (click)="city('lon')">London</button>
-    <button (click)="city('man')">Manchester</button>
-  </div>
-  <div>
-    <p>Theme Chooser</p>
-    <button (click)="changeType()">
-      Lights <ng-container *ngIf="dark_theme">on</ng-container
-      ><ng-container *ngIf="!dark_theme">off</ng-container>
-    </button>
-  </div>
-  <div class="masts">
-    <p>Masts</p>
-    <button (click)="toggleMasts()">
-      <ng-container *ngIf="mastsVisible">Hide</ng-container
-      ><ng-container *ngIf="!mastsVisible">Show</ng-container> Masts
-    </button>
-    <button (click)="toggleClusters()">
-      <ng-container *ngIf="clustersVisible">Hide</ng-container
-      ><ng-container *ngIf="!clustersVisible">Show</ng-container> Cluster
-    </button>
-    <label for="clusters">Grid size</label>
-    <input
-      [disabled]="!clustersVisible"
-      type="range"
-      name="clusters"
-      min="0"
-      max="250"
-      (change)="changeCluster()"
-      [(ngModel)]="clust_num"
-    />
-  </div>
-  <div>
-    <p>
-      Rents
-    </p>
-    <button (click)="toggleHeatmap()">
-      <ng-container *ngIf="heatmapVisible">Hide</ng-container
-      ><ng-container *ngIf="!heatmapVisible">Show</ng-container> Rent Heatmap
-    </button>
-    <label for="Radius">Heatmap radius</label>
-    <input
-      [disabled]="!heatmapVisible"
-      type="range"
-      name="Radius"
-      min="0"
-      max="70"
-      (change)="changed()"
-      [(ngModel)]="heatmap_radius"
-    />
-  </div>
+  <ng-container *ngIf="viewReady">
+    <div>
+      <p>City Chooser</p>
+      <button (click)="city('lon')">London</button>
+      <button (click)="city('man')">Manchester</button>
+    </div>
+    <div>
+      <p>Theme Chooser</p>
+      <button (click)="changeType()">
+        Lights <ng-container *ngIf="dark_theme">on</ng-container
+        ><ng-container *ngIf="!dark_theme">off</ng-container>
+      </button>
+    </div>
+    <div class="masts">
+      <p>Masts</p>
+      <button (click)="toggleMasts()">
+        <ng-container *ngIf="mastsVisible">Hide</ng-container
+        ><ng-container *ngIf="!mastsVisible">Show</ng-container> Masts
+      </button>
+      <button (click)="toggleClusters()">
+        <ng-container *ngIf="clustersVisible">Hide</ng-container
+        ><ng-container *ngIf="!clustersVisible">Show</ng-container> Cluster
+      </button>
+      <label for="clusters">Grid size</label>
+      <input
+        [disabled]="!clustersVisible"
+        type="range"
+        name="clusters"
+        min="0"
+        max="250"
+        (change)="changeCluster()"
+        [(ngModel)]="clust_num"
+      />
+    </div>
+    <div>
+      <p>
+        Rents
+      </p>
+      <button (click)="toggleHeatmap()">
+        <ng-container *ngIf="heatmapVisible">Hide</ng-container
+        ><ng-container *ngIf="!heatmapVisible">Show</ng-container> Rent Heatmap
+      </button>
+      <label for="Radius">Heatmap radius</label>
+      <input
+        [disabled]="!heatmapVisible"
+        type="range"
+        name="Radius"
+        min="0"
+        max="70"
+        (change)="changed()"
+        [(ngModel)]="heatmap_radius"
+      />
+    </div>
+    <div class="codes">
+      <a href="https://github.com/mandarini/ng-gmap">gimme teh codez</a>
+    </div>
+  </ng-container>
 </div>
 <div #drawingControls class="drawing">
-  <img src="assets/img/point.png" (click)="draw('marker')" />
-  <img src="assets/img/polygon.png" (click)="draw('polygon')" />
-  <img src="assets/img/square.png" (click)="draw('square')" />
-  <img src="assets/img/line.png" (click)="draw('polyline')" />
-  <img src="assets/img/circle.png" (click)="draw('circle')" />
-  <img src="assets/img/cat.png" (click)="draw('cat')" />
-  <img src="assets/img/pan.png" (click)="draw('pan')" />
-  <img src="assets/img/save.png" (click)="draw('save')" />
-  <img src="assets/img/clear.svg" (click)="clearAll()" />
+  <ng-container *ngIf="viewReady">
+    <img src="assets/img/point.png" (click)="draw('marker')" />
+    <img src="assets/img/polygon.png" (click)="draw('polygon')" />
+    <img src="assets/img/square.png" (click)="draw('square')" />
+    <img src="assets/img/line.png" (click)="draw('polyline')" />
+    <img src="assets/img/circle.png" (click)="draw('circle')" />
+    <img src="assets/img/cat.png" (click)="draw('cat')" />
+    <img src="assets/img/pan.png" (click)="draw('pan')" />
+    <img src="assets/img/save.png" (click)="draw('save')" />
+    <img src="assets/img/clear.svg" (click)="clearAll()" />
+  </ng-container>
 </div>
 <div #mapElement class="map"></div>
 <p #legend [ngClass]="{ legend: showLonely }">

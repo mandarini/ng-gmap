@@ -48,6 +48,23 @@
   input {
     padding: 8px;
   }
+
+  div.codes {
+    text-align: center;
+    a {
+      font-size: 1.3em;
+      padding: 8px;
+      background-color: #625f9c;
+      color: white;
+      border-radius: 16px;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: none;
+      background-color: white;
+      color: #625f9c;
+    }
+  }
 }
 
 .my-link {

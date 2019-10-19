@@ -95,8 +95,6 @@ export class MainMapComponent implements OnInit, AfterViewInit {
       }
     });
 
-    this.viewReady = true;
-
     this.map.mapTypes.set("dark_map", darkmap);
     this.map.setMapTypeId("dark_map");
 
@@ -126,6 +124,7 @@ export class MainMapComponent implements OnInit, AfterViewInit {
     this.loadAllMarkers(this.map);
     this.loadGeoJson(this.map);
     this.loadHeatmapData();
+    this.viewReady = true;
   }
 
   loadHeatmapData() {
